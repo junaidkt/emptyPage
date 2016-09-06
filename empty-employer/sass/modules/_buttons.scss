@@ -1,0 +1,90 @@
+//@media (min-width: 990px) and (max-width: 1024px){
+//    .saved-jobs{
+//        .matching-applicants{ padding-top:50px;}
+//        .probability{ padding-top:50px;}
+//        .open-closed{ margin-top:90px;}
+//        .filter-jobs .mob-bdr1{border-right:solid 1px $grey-border}
+//    }
+//    .filter-jobs{
+//        .mob-bdr1{ border-bottom:none;border-right:solid 1px $grey-border ;min-height:160px;}
+//    } 
+//    .featured-jobs{
+//        .mob-bdr{ border-bottom:none;border-right:solid 1px #475c73; min-height:160px;}
+//        .matching-applicants{ min-height:160px; }
+//        
+//    } 
+//    .my-job{
+//        .un-successful{ width:130px;  }
+//        .successful{ width:130px;  }
+//    }
+// 
+//}
+@media (min-width: 900px) and (max-width: 1024px){
+
+    .featured-jobs{
+        .mob-bdr{ border-right:1px solid #475c73;}
+        .col-md-8{ min-height:160px;}
+        .matching-applicants{ min-height:160px;}
+        }
+    #viewed-Profile{
+        .align{ margin-top:0px;  }
+        .company-following{ width:59%; margin-bottom:5px; }
+        .follow-following{ width:39%  }
+         .side-advt{ width:100% ; padding-right:0px;  }
+        .bottom-gap{ margin-bottom:0px;  }
+    }
+    #most-profile{
+    .align{
+        .company-following{ width:100%; margin-bottom:5px; }
+    } 
+    .padding-20{ padding: 20px; margin: auto;   }
+    .padding-20-0{ padding:20px 0px!important;  }
+//        #emp-jobs .post-table .col-lg-2{ min-height:126px;  }
+}      
+}
+
+@media (min-width: 990px) and (max-width: 1024px){
+.job-seekers,.home-Employers{
+.col-lg-3{ border-right:solid 1px $grey-light;border-bottom:none; 
+}
+}
+.bdr-rgt-none{ border-right:solid 1px $grey-light!important;}
+}
+
+
+@media (min-width: 900px) and (max-width: 1435px){
+    #all-companies{
+            .company-following{ width:176px;}
+        .follow-following{ width: 356px; margin-top:5px;   }
+         .align{ text-align: right; margin-top:0px;}
+    } 
+    .featured-jobs .featured-box .feturd-compny-dtls .txt-white{ font-size:14px!important;}
+    
+    #viewed-Profile{
+            .filter-jobs{
+        
+            .txt-white{white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 124px;}
+   
+}
+        
+    }
+    
+.ftrd-slider{
+.carousel-control.left{ left: 1px!important; }
+.carousel-control.right{ right: 0px!important; }
+}   
+         
+.home-blog{
+.carousel-control.left{ left: 20px!important; }
+.carousel-control.right{ right: 20px!important; }
+} 
+ .sign-page{
+    .bg img{ height: 100vh; width: auto;  }
+}   
+      
+
+
+}

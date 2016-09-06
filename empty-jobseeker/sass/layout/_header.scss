@@ -1,0 +1,48 @@
+.bloovo-header{ 
+        background:$white; 
+        height:60px; 
+        position: fixed; 
+        padding-right:80px;  
+        width: 100%; 
+        top: 0px; 
+        z-index: 999;
+    .col-lg-5{ padding-left: 0px!important;}
+    .search{ position: relative;
+        input{ 
+            border: solid 1px $blue-Pattens;
+            margin-top:7px;
+            color:$blue-bali;
+            width: 100%; 
+            padding:10px 20px 10px 40px;}
+    i{
+        position: absolute; 
+        left: 15px;
+        color:$blue-bali;
+        top:21px;
+        }
+    }
+    
+.profile-picture{ 
+    margin: 0 auto; 
+    height: 54px; 
+    width: 40px; 
+        img{ 
+            margin-top:2px; 
+            width: 100%; 
+            height: 100%; 
+            -webkit-border-radius: 50%/60% 60% 40% 40%;
+            -moz-border-radius: 50%/60% 60% 40% 40%;
+            border-radius: 50%/60% 60% 40% 40%;}
+    
+    }
+    .log-out{ padding:0px 20px;line-height: 60px;
+        a{color:$blue-bali;}
+        a:hover{ color:$navy-dark}
+        i{ color:$navy-dark}
+    }
+.profile-name{ color:$navy-dark;padding:0px 20px; line-height: 60px;}
+
+} 
+
+
+

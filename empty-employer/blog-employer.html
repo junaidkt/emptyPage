@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+
+</head>
+    
+
+    
+<body>
+
+
+<!-- Menu -->
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+      
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile-employer.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="zmdi zmdi-city-alt"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard-employer.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs-employer.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="candidates-employer.html" data-toggle="tooltip" data-placement="right" title="Candidates"><i class="icon-candidate"></i><span> Candidates</span></a></li>
+                    <li><a href="blog-employer.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="consulting-employer.html" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings-employer.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-- Content Area -->
+<div class="bloovo-container">
+    <div class="side-body">
+<!-- header -->     
+        <div class="bloovo-header">  
+            <div class="bloovo-right click-dropdown">
+                
+                <div class="dropdown">
+                  <button class="dropbtn"><div class="profile-picture bloovo-right "><img src="images/profile-employer.png"></div>
+                      <div class="profile-name bloovo-right">Ways Infotech LLC</div></button>
+
+                    <div class="dropdown-content">
+                      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+
+                        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+                        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+                        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+
+                  </div>
+                </div>
+
+                <div class=" clr"></div>
+            </div>    
+        </div>
+ 
+        
+<!-------- Contents --------->        
+<!--------------------------- Profile Content ---------------------------------->           
+<div class=" main-tab">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#Blogs" aria-controls="Blogs" role="tab" data-toggle="tab"><i class="zmdi zmdi-file-text"></i> Blogs
+            </a></li>
+        <li role="presentation"><a href="#manage-post" aria-controls="manage-post" role="tab" data-toggle="tab"><i class="icon-manage-post"></i> Manage Post Friends</a></li>
+    </ul>
+</div>          
+ 
+<div class="tab-content">
+<!--------------------------- My Profile ---------------------------------->       
+<div role="tabpanel" class="tab-pane active" id="Blogs">
+<div class="commen-container">
+    <div class="col-lg-8">
+        <div class="blog">
+            <div class="block bottom-gap">
+            <div class="block-contant padding-btm-0 editor">    
+                <div><h1>What’s new with you? </h1> </div>
+                <div><input type="text" placeholder="Tittle" name="Tittle"></div>
+                <div class="blog-box">
+                    <button><i class="icon-format-bold"></i></button>
+                    <button><i class="icon-format-italic"></i></button>
+                    <button><i class="icon-format-underlined"></i></button>
+                          
+                    <button><i class="icon-align-justify"></i></button>
+                    <button><i class="icon-alignleft"></i></button>
+                    <button><i class="icon-align-center"></i></button>
+                    <button><i class="icon-align-right"></i></button>
+                    <button><i class="icon-view-list"></i></button>
+                    
+                    <button><i class="icon-cottation"></i></button>
+                          
+                </div>
+                <div><textarea type="text" placeholder="Share your story..."></textarea></div>
+                <div><h4>Tags</h4> </div>
+                <div class="tag-secton">
+                        <form>
+                            <p>
+                                <input id="tags_1" type="text" class="tags" />
+                            </p>
+                        </form>
+                
+                </div>
+                <div> 
+                
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
+                    <div class="navy">Upload Image / Video </div> 
+                    <p class="light" >Please choose an image that is at least 920 pixels wide and at least 340 pixels tall. File size should be less than 4MB</p>    
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+
+                        <a data-target=".blog-upload" data-toggle="modal" class="browser"> Browse </a> 
+                    </div>
+                <div class="clearfix"></div>
+                </div>
+            </div>
+                <div class="block-footer border-none padding-top-0 "><button> Post </button> </div>  
+            </div>
+            
+            
+            <div>
+           
+
+                <div class="block bottom-gap">
+                   
+                     <div class="empty-min4">
+                            <div class="empty-prf "> 
+                                <i class="icon-empty-blog"></i>    
+                                <h5>No Blog Post Available</h5>    
+                            </div>
+
+                        </div>
+            
+                
+                </div>
+                
+ 
+                
+            <div class="clearfix"></div>
+
+            </div>  
+            
+            
+        
+        </div>
+        
+    </div>
+
+<!-- sidebar -->
+    <div class="col-lg-4">
+        <div class="blog_sidebar white">
+           <h2>Top Viewed Posts</h2>  
+           <div class="top_viewed border-bottom">
+        
+                     <div class="empty-min4">
+                            <div class="empty-prf "> 
+                                <i class="icon-empty-topview"></i>    
+                                <h5>No Top Viewed Post Available</h5>    
+                            </div>
+
+                        </div>
+          
+               
+           </div> 
+
+
+           <!-- related Tags -->
+            <h2>Tags</h2>  
+             <div class="top_viewed border-bottom">
+        
+                     <div class="empty-min4">
+                            <div class="empty-prf "> 
+                                <i class="icon-empty-tags"></i>    
+                                <h5>No Tags Available</h5>    
+                            </div>
+
+                        </div>
+            
+               
+           </div> 
+        </div>
+    </div>
+
+</div> 
+      
+</div>          
+ 
+<!----------------------  Manage Post ---------------------------> 
+<div role="tabpanel" class="tab-pane" id="manage-post">
+    
+    <div class="commen-container">
+        <div class="col-lg-12 saved-searches">
+            <div class="block bottom-gap">
+                <div class="block-title-2">
+                <h2> Manage Post </h2>
+                </div>
+                
+                
+            <div class="block-contant">
+<div class="empty-min2">
+<div class="empty-prf "> 
+<i class="icon-empty-viewprofile"></i>    
+<h5>No Viewers on your profile</h5>    
+</div>
+
+</div>
+</div>
+
+                
+                <div class="clearfix"></div>
+            </div>
+        
+        
+        </div>
+    </div>
+
+</div>
+
+    
+</div>
+        
+        
+        
+<!-- footer  -->
+<footer>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">About BLOOVO</a>
+        <a href="#">Company Director</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Blog</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+<!-- end footer  -->      
+        
+        
+</div>         
+        
+                
+
+        
+        
+        
+
+        
+        
+
+
+</div>
+
+
+
+    
+
+<!------------ popup ---------> 
+    
+<div class="popup blg-popup"><!-- upload-dp  -->   
+<div class="logout-pop">   
+        <div class="modal fade blog-upload upload-dp " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body blog-popup">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        
+                        
+                        <div class="row employers-tab">
+            <div class="col-lg-12">
+         
+                    <div class="mobile-job-application">   
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#image" aria-controls="image" role="tab" data-toggle="tab">Image</a></li>
+                            <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">Video</a></li>
+                        
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="image">
+                                                        
+                        <h2>Upload Image</h2>
+                        <h4>Please choose an image that is at least <span class="dark">920 pixels wide</span> and at least <span class="dark">340 pixels tall.</span> File size should be less than 4MB.</h4>
+                        
+        
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+                        
+                     
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok </button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="video">
+                                                    <h2>Upload Video</h2>
+                                <h4>We accept <span class="dark">AVI, MPEG, QuickTime, Real,</span> and <span class="dark">Windows Media, 100MB</span> Maximum Size.</h4>
+                        
+        
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+                                
+                    <div class="or-section">
+                    <div class="or">or</div>            
+                                
+                    </div>        
+ 
+            <div class="full-box">
+                <i class="icon-youtube"></i>  
+            <div class="navy">Paste Embed videos from YouTube</div>
+                <input type="text" placeholder="Past Url" name="phn">
+                                </div>
+  
+                     
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok </button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+                                
+                            </div>
+
+                        </div>    
+                    </div>   
+             
+            </div>
+        </div>
+        
+                        
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>    
+           
+
+    
+    
+    
+    
+    
+    
+
+
+    
+<!-- Commen jquery -->
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+
+  
+<!--Menu jquery -->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!-- Tool Tip -->
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>  
+    
+    
+    
+<!--------------------- Taging script --------------------->     
+
+<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
+	<script type="text/javascript">
+
+		function onAddTag(tag) {
+			alert("Added a tag: " + tag);
+		}
+		function onRemoveTag(tag) {
+			alert("Removed a tag: " + tag);
+		}
+
+		function onChangeTag(input,tag) {
+			alert("Changed a tag: " + tag);
+		}
+
+		$(function() {
+
+			$('#tags_1').tagsInput({width:'auto'});
+			$('#tags_2').tagsInput({
+				width: 'auto',
+				onChange: function(elem, elem_tags)
+				{
+					var languages = ['php','ruby','javascript'];
+					$('.tag', elem_tags).each(function()
+					{
+						if($(this).text().search(new RegExp('\\b(' + languages.join('|') + ')\\b')) >= 0)
+							$(this).css('background-color', 'yellow');
+					});
+				}
+			});
+			$('#tags_3').tagsInput({
+				width: 'auto',
+
+				//autocomplete_url:'test/fake_plaintext_endpoint.html' //jquery.autocomplete (not jquery ui)
+				autocomplete_url:'test/fake_json_endpoint.html' // jquery ui autocomplete requires a json endpoint
+			});
+
+		});
+
+	</script>
+        
+  
+     
+<!--Browse script-->
+    
+<script>
+$('div.fancy-file input:file').bind('change blur', function() {
+var $inp = $(this), fn;
+
+fn = $inp.val();
+if (/fakepath/.test(fn))
+fn = fn.replace(/^.*\\/, '');
+
+$inp.closest('.fancy-file').find('.fancy-file-name').text(fn);
+});                        
+</script>     
+ 
+</body>
+</html>

@@ -1,0 +1,595 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+</head>
+    
+
+    
+<body>
+
+   
+    
+    
+
+
+ <!----------------------Menu----------------------------->   
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="search-mobile hide-mobile bloovo-left">
+                            <input type="text" placeholder="Search " name="">
+                            <i class="zmdi zmdi-search"></i>
+                        </div>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+                 <ul class="nav navbar-nav">
+                    <li><a href="profile.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="icon-profile"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="companies.html" data-toggle="tooltip" data-placement="right" title="Companies"><i class="zmdi zmdi-city-alt"></i><span> Companies</span></a></li>
+                    <li><a href="blog.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-------------------- Content Area ------------------>
+<div class="bloovo-container">
+    <div class="side-body">
+<!--------------------------------- header ------------------------------------->	     
+        <div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+                <div class="search">
+                    <input type="text" placeholder="Search for Jobs or Companies " name="">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+  
+<div class="dropdown">
+  <button class="dropbtn"><div class="profile-picture bloovo-right "></div>
+                <div class="profile-name bloovo-right">Alexander Paul</div></button>
+    
+  <div class="dropdown-content">
+      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+  
+    <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+    <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+    <a href="#" data-toggle="modal" data-target=".logout"><i class="zmdi zmdi-power"></i> Logout</a>
+      
+  </div>
+</div>
+
+                
+                
+                
+                <div class=" clr"></div>
+            </div>    
+        </div>
+<!-------- Contents --------->        
+<!--------------------------- Dash board Content ---------------------------------->           
+<div class=" main-tab">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#statistics" aria-controls="statistics" role="tab" data-toggle="tab"><i class="icon-statistics"></i> My Statistics</a></li>
+        <li role="presentation"><a href="#viewed-Profile" aria-controls="viewed-Profile" role="tab" data-toggle="tab"><i class="zmdi zmdi-eye"></i> Who Viewed My Profile</a></li>
+        <li role="presentation"><a href="#poll" aria-controls="poll" role="tab" data-toggle="tab"><i class="icon-thumbs-up"></i> Poll</a></li>
+    </ul>
+</div>     
+        
+<div class="commen-container">
+    
+<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+    <div class="block bottom-gap">
+        <div class="block-title-2">
+        <div class="left"><h2>Job Applications Submitted by Country</h2></div>
+        <div class="right">
+            <a href="dashboard.html"><button>Back</button></a> 
+            </div>
+            <div class=" clr"></div>
+        </div>
+<div class="block-contant padding-10">
+<div class="prograss-section margin-top-20 padding-btm-20"> 
+    
+    <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">United Arab Emirates</div>
+                <div class="prograss-txt pull-right percentage-color" >50%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 50%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">China</div>
+                <div class="prograss-txt pull-right percentage-color" >5%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 5%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Pakistan</div>
+                <div class="prograss-txt pull-right percentage-color" >25%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 25%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Malaysia</div>
+                <div class="prograss-txt pull-right percentage-color" >35%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 35%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Germany</div>
+                <div class="prograss-txt pull-right percentage-color" >10%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 10%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Brazil</div>
+                <div class="prograss-txt pull-right percentage-color" >18%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 18%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">France</div>
+                <div class="prograss-txt pull-right percentage-color" >60%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 60%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Cambodia</div>
+                <div class="prograss-txt pull-right percentage-color" >10%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 50%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">United States</div>
+                <div class="prograss-txt pull-right percentage-color" >5%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 5%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Egypt</div>
+                <div class="prograss-txt pull-right percentage-color" >45%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 45%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">India</div>
+                <div class="prograss-txt pull-right percentage-color" >80%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 80%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Hungary</div>
+                <div class="prograss-txt pull-right percentage-color" >30%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 30%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Japan</div>
+                <div class="prograss-txt pull-right percentage-color" >16%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 16%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Jamaica</div>
+                <div class="prograss-txt pull-right percentage-color" >48%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 48%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">India</div>
+                <div class="prograss-txt pull-right percentage-color" >80%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 80%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Hungary</div>
+                <div class="prograss-txt pull-right percentage-color" >30%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 30%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Japan</div>
+                <div class="prograss-txt pull-right percentage-color" >16%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 16%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-lg-6">
+        <div class="progress-bloovo">
+            <div class="prograss-title">
+                <div class="prograss-txt pull-left">Jamaica</div>
+                <div class="prograss-txt pull-right percentage-color" >48%</div>
+                <div class=" clr"></div>
+            </div>    
+            <div class="progress">
+                <div data-percentage="0%" style="width: 48%;" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="loading"> 
+        <img src="images/spin.svg">
+        </div>
+    </div>
+  
+      
+ <div class="clr"></div>       
+</div>
+            
+            
+            
+<div class="clr"></div>            
+</div>
+    </div>
+</div>    
+    
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+<div class="advertisement">
+            
+    <div class="side-advt bottom-gap">
+         <img src="images/advertisement/advt-3.png">
+    </div>
+    
+    <div class="side-advt bottom-gap padding-0">
+        <img src="images/advertisement/advt-4.png">
+    </div>
+    
+</div>    
+</div>        
+    
+</div>
+
+<!---------------------------------- footer ------------------------------------->   
+<footer>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">Blog</a>
+        <a href="#">Company Directory</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">About BLOOVO</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+<!-------------------------------- end footer -------------------------------------->          
+
+
+<!---------------------- Logout POPUP Content --------------------------->     
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade logout" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Logout</H2>
+                        <h4>Are you sure you want to Logout?</h4>
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Yes</button>
+                            <button type="button" class="btn negative">No</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+        
+</div>
+
+
+
+
+</div>
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+<!--------------------------- Commen jquery ------------------------------->	 
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+  
+<!--------------------------- Menu jquery ------------------------------->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!--------------------- Tool Tip --------------------->    
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+    
+    
+<!--------------------- Folow following script --------------------->       
+<script>    
+    $('button').click(function(){
+        var $this = $(this);
+        $this.toggleClass('following')
+        if($this.is('.following')){
+            $this.addClass('wait');
+        }
+    }).on('mouseleave',function(){
+        $(this).removeClass('wait');
+    })
+</script> 
+    
+<!--------------------- Graph script ---------------------> 
+<script src="js/graph.js"></script>
+ <script>
+        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var randomScalingFactor = function() {
+            return Math.round(Math.random() * 100 * (Math.random() > 0.5 ? -1 : 1));
+        };
+        var randomColorFactor = function() {
+            return Math.round(Math.random() * 255);
+        };
+        var randomColor = function(opacity) {
+            return 'rgba(123, 161, 178, 0.5)';
+        };
+
+        var config = {
+            type: 'line',
+            data: {
+                labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL","AUG","SEP","OCT","NOV","DEC"],
+                datasets: [{
+                    label: "",
+                    data: [100,50,40,40,60,20,40,60,20,50,40,0],
+                    fill: false,
+                }]
+            },
+            options: {
+                responsive: true,
+                legend: {
+                    position: 'top',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Month'
+                        }
+                    }],
+                    yAxes: [{
+                        display: false,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value'
+                        }
+                    }]
+                },
+
+            }
+        };
+
+        $.each(config.data.datasets, function(i, dataset) {
+            var background = randomColor(0.5);
+            dataset.borderColor = background;
+            dataset.backgroundColor = background;
+            dataset.pointBorderColor = background;
+            dataset.pointBackgroundColor = background;
+            dataset.pointBorderWidth = 1;
+        });
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myLine = new Chart(ctx, config);
+        };
+
+</script>
+
+
+  
+
+    
+    
+   
+</body>
+</html>

@@ -1,0 +1,14 @@
+footer{ padding:0 10px;
+    .col-lg-12{ margin-bottom: 20px;}
+    a{border-right: solid 1px $navy-dark;
+        color:$navy-dark; 
+        font-size:$font-14;
+        padding:0 15px; }
+    a:hover{ color:$navy-light}
+    .copyright{
+        color:$navy-dark; 
+        font-size:$font-14;}
+    hr{ 
+        border-color:$grey-light; 
+        margin:0px 0px 20px 0px; }
+}

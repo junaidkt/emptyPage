@@ -1,0 +1,1870 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+
+    
+	</head>
+    
+
+    
+<body>
+
+
+   
+    
+    
+
+
+ <!----------------------Menu----------------------------->   
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile-employer.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="zmdi zmdi-city-alt"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard-employer.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs-employer.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="candidates-employer.html" data-toggle="tooltip" data-placement="right" title="Candidates"><i class="icon-candidate"></i><span> Candidates</span></a></li>
+                    <li><a href="blog-employer.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="consulting-employer.html" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings-employer.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-------------------- Content Area ------------------>
+<div class="bloovo-container">
+    <div class="side-body">
+<!--------------------------------- header ------------------------------------->	     
+<div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+                <div class="dropdown">
+                  <button class="dropbtn"><div class="profile-picture bloovo-right "><img src="images/profile-employer.png"></div>
+                      <div class="profile-name bloovo-right">Ways Infotech LLC</div></button>
+
+                    <div class="dropdown-content">
+                      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+
+                        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+                        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+                        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+
+                  </div>
+                </div>
+
+                <div class=" clr"></div>
+            </div>    
+        </div>
+
+<!-------- Contents --------->        
+<!--------------------------- JobContent ---------------------------------->           
+<div class=" main-tab">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#emp-rofile" aria-controls="all-companies" role="tab" data-toggle="tab">
+            <i class="zmdi zmdi-city-alt"></i> Profile
+            </a>
+        </li>
+        
+        <li role="presentation"><a href="#followed-companies" aria-controls="followed-companies" role="tab" data-toggle="tab">
+            <i class="icon-users"></i> Users
+            </a>
+        </li>
+        
+        <li role="presentation"><a href="#followed-companies" aria-controls="followed-companies" role="tab" data-toggle="tab">
+            <i class="zmdi zmdi-accounts"></i> Followers
+            </a>
+        </li>
+        
+        <li role="presentation"><a href="#followed-companies" aria-controls="followed-companies" role="tab" data-toggle="tab">
+            <i class="zmdi zmdi-accounts-add"></i> Invite Connections
+            </a>
+        </li>
+        
+        <li role="presentation" class="green-tab"><a href="#followed-companies" aria-controls="followed-companies" role="tab" data-toggle="tab">
+             Featured Employer Subscription
+            </a>
+        </li>
+
+        
+    </ul>
+</div>      
+        
+<div class="tab-content job-bloovo">
+<!---------------------------  Companies details ---------------------------------->       
+<div role="tabpanel" class="tab-pane active">
+    <div class="commen-container employers-details emplyer-edit" id="emp-rofile">
+<!--Job Description-->
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="block bottom-gap">
+                    <div class="row">
+                        <div class="cover-photo"> <img src="images/cover-photo.png" class="covr-size" ></div>
+                        <div class="cover-back block-title-2 border-none padding-0"> <a href="profile-employer.html"><button> <i class="zmdi zmdi-floppy"></i> Save All Changes</button> </a> </div>
+                       
+                        <div class="cover-back-change cancel border-none padding-0"> <a data-target=".up-cover-photo" data-toggle="modal"><button><i class="zmdi zmdi-image-alt"></i> Change Cover Photo</button> </a> </div>
+                        
+                    </div>
+                    <div class="row padding-20-10">
+
+
+                        <div class="col-lg-12">
+                            <div class="employers-logo">
+                                
+                                
+                                <div class="employers-logo-sec"> <img src="images/company-logo-1.png"> </div>
+                                 <div class="employers-logo-edit">
+                                <a href="#" data-toggle="modal" data-target=".up-employer-profilephoto"><i class="zmdi zmdi-camera-add"></i></a> 
+                                </div>
+                            
+                            
+                            
+                            </div>
+
+                            <div class="employers-detail">
+                                <div class="row block-title-2 padding-0 border-none "> <h4> Company Name</h4></div> 
+                                <div class="row">
+                                    
+    <div class="full-box"><input type="text" name="phn"  placeholder="BEE'AH- The Sharjah Environment Company"></div>   
+                                </div>
+                                
+                                <div class="row display">
+                            <div class="soc" >
+<div class="social-section">
+    
+
+        
+<div class="social-media desktop"><!-- desktop -->  
+
+<div class="fb">  
+    
+<ul>
+<li>
+    <span class="s-media facebook " id="fb" ><i class="zmdi zmdi-facebook"></i></span>
+   <div id="fb-section" class="social-area" > <input type="text" class="feld-url"  placeholder="url"> </div>
+    <div class=" clearfix"></div>
+</li> 
+        
+<li>
+    <span class="s-media twitter " id="tw"><i class="zmdi zmdi-twitter"></i></span>
+    <div id="tw-section" class="social-area" > <input type="text" class="feld-url" placeholder="url"> </div>
+      <div class=" clearfix"></div>
+    
+</li> 
+<li>
+    <span class="s-media linkdin " id="in"><i class="zmdi zmdi-linkedin"></i></span>
+   <div id="in-section" class="social-area" > <input type="text" class="feld-url" placeholder="url"> </div>
+      <div class=" clearfix"></div>
+    
+</li> 
+        
+<li>
+    <span class="s-media google-plus " id="gp"><i class="zmdi zmdi-google-plus"></i></span>
+    <div id="gp-section" class="social-area" > <input type="text" class="feld-url" placeholder="url"> </div>
+      <div class=" clearfix"></div>
+    
+</li> 
+
+
+   <div class=" clearfix"></div>   
+    
+</ul>    
+    
+
+
+</div>    
+
+    
+
+    
+<div class=" clearfix"></div>
+</div>
+    
+<div class=" mobile"><!-- mobile -->  
+
+<div class="fb123"> 
+    
+
+   <div class="full-box12 social-media">
+    <input type="text" placeholder="url">
+    <div class="s-media facebook"><i class="zmdi zmdi-facebook"></i></div>
+</div>
+    
+   <div class="full-box12 social-media">
+    <input type="text" placeholder="url">
+    <div class="s-media twitter"><i class="zmdi zmdi-twitter"></i></div>
+</div>
+    
+   <div class="full-box12 social-media">
+    <input type="text" placeholder="url">
+    <div class="s-media linkdin"><i class="zmdi zmdi-linkedin"></i></div>
+</div>
+    
+   <div class="full-box12 social-media">
+    <input type="text" placeholder="url">
+    <div class="s-media google-plus"><i class="zmdi zmdi-google-plus"></i></div>
+</div>
+
+ 
+
+    
+  
+
+    
+ <div class=" clearfix"></div>   
+</div>
+
+</div>
+    
+    
+
+        
+        
+        
+</div>    
+    
+</div> 
+    
+  
+                                </div>
+                            </div>
+                        </div>
+               
+
+                    </div>
+
+                    <div class="employers-information edit">   
+                        <!---- Desktop ---->             
+                        <div class="desktop">
+                            <!--Company Information-->                   
+                            <div class="row padding-0 employers-info">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="row block-title padding-10-20">
+                                        <h4>Contact Details</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="block-contant">
+
+                                            <div class="ab-box">
+                                                <span><i class="zmdi zmdi-pin"></i> </span> 
+                                                <div class="half-box"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">United Arab Emirates <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>   
+                                                <div class="half-box margin-none"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Dubai <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-chart-donut"></i> </span> 
+                                                <div class="btn-group">
+                                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Hotels & Resorts <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>  
+                                            <div class="ab-box">
+                                                <span><i class="zmdi zmdi-phone"></i></span> 
+                                                <div class="box-25">        
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">+971<i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div> 
+                                                </div>
+                                                <div class="box-74 margin-none">
+                                                    <input type="text" name="phn"  placeholder="+ 44 471222">
+                                                </div>
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-email"></i></span> 
+                                                <input type="text" name="phn"placeholder="beeah@gmail.com">
+                                            </div>  
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-globe"></i> </span> 
+                                                <input type="text" name="phn"placeholder=" www.ifahotelsresorts.com">
+                                            </div>  
+                                            <div class=" clearfix"></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="row block-title padding-10-20">
+                                        <h4>Address</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="block-contant">
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Ground Floor">
+                                            </div>
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Commercial Offices North Residence,">
+                                            </div>
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Palm Jumeirah 502164">
+                                            </div>
+                                            <div class="full-box">
+                                                <div class="half-box"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">United Arab Emirates <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>   
+                                                <div class="half-box margin-none"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Dubai <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <div class="row block-title padding-10-20">
+                                        <h4>Location</h4>
+                                    </div>
+                                    <div class="row padding-20">
+                                        <div class="row">
+                                            <div class="full-box">
+                                                <div class="half-box">
+                                                    <div class="light">Latitude</div>
+                                                    <div class="full-box"> 
+                                                        <input type="text" name="phn"placeholder="40.7127837"></div>
+                                                </div>
+                                                <div class="half-box margin-none">
+                                                    <div class="light">Longitude</div>
+                                                    <div class="full-box"> <input type="text" name="phn"placeholder="-74.00594130000002"></div>
+                                                </div>
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14452.206173148019!2d55.165189749999996!3d25.1001165!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1466919918795" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---- Mobile ---->   
+                        <div class="mobile employers-info">
+                            <div class="mobile-job-application">   
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#company-contact" aria-controls="company-contact" role="tab" data-toggle="tab">
+                                        Contact <i class="hide-feedback">Details</i> </a></li>
+                                    <li role="presentation"><a href="#company-address" aria-controls="company-address" role="tab" data-toggle="tab">Address</a></li>
+                                    <li role="presentation"><a href="#company-location" aria-controls="company-location" role="tab" data-toggle="tab">Location</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="company-contact">
+                                   <div class="row">
+                                        <div class="block-contant">
+
+                                            <div class="ab-box">
+                                                <span><i class="zmdi zmdi-pin"></i> </span> 
+                                                <div class="half-box"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">United Arab Emirates <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>   
+                                                <div class="half-box margin-none"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Dubai <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-chart-donut"></i> </span> 
+                                                <div class="btn-group">
+                                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Hotels & Resorts <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                        <li><a href="#">Al Ain </a></li>
+                                                        <li><a href="#">Dubai </a></li>
+                                                        <li><a href="#">Rasalkyma </a></li>
+                                                        <li><a href="#">Soudi Arabia </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>  
+                                            <div class="ab-box">
+                                                <span><i class="zmdi zmdi-phone"></i></span> 
+                                                <div class="box-25">        
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">+971<i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div> 
+                                                </div>
+                                                <div class="box-74 margin-none">
+                                                    <input type="text" name="phn"  placeholder="+ 44 471222">
+                                                </div>
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-email"></i></span> 
+                                                <input type="text" name="phn"placeholder="beeah@gmail.com">
+                                            </div>  
+                                            <div class="ab-box">  
+                                                <span><i class="zmdi zmdi-globe"></i> </span> 
+                                                <input type="text" name="phn"placeholder=" www.ifahotelsresorts.com">
+                                            </div>  
+                                            <div class=" clearfix"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="company-address">
+                                        <div class="row ">
+                                        <div class="block-contant">
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Ground Floor">
+                                            </div>
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Commercial Offices North Residence,">
+                                            </div>
+                                            <div class="full-box">  
+                                                <input type="text" name="phn"placeholder="Palm Jumeirah 502164">
+                                            </div>
+                                            <div class="full-box">
+                                                <div class="half-box"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">United Arab Emirates <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>   
+                                                <div class="half-box margin-none"> 
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Dubai <i class="caret"></i></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                            <li><a href="#">Al Ain </a></li>
+                                                            <li><a href="#">Dubai </a></li>
+                                                            <li><a href="#">Rasalkyma </a></li>
+                                                            <li><a href="#">Soudi Arabia </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="company-location">
+                                                     <div class="row">
+                                                         <div class="block-contant">
+                                        <div class="row">
+                                            <div class="full-box">
+                                                <div class="half-box">
+                                                    <div class="light">Latitude</div>
+                                                    <div class="full-box"> <input type="text" name="phn"placeholder="40.7127837"></div>
+                                                </div>
+                                                <div class="half-box margin-none">
+                                                    <div class="light">Longitude</div>
+                                                    <div class="full-box"> <input type="text" name="phn"placeholder="-74.00594130000002"></div>
+                                                </div>
+                                                <div class=" clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14452.206173148019!2d55.165189749999996!3d25.1001165!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1466919918795" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                             </div>
+                                    </div>
+                                    </div>
+                                </div>    
+                            </div> 
+                        </div>
+
+<!--requirement--> 
+                        
+                        <div class="row requirement" id="my-profile">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="req-1"><i class="zmdi zmdi-calendar-check"></i></div>
+                                <div class="req-2">
+                                    <div class="txt">Establishment Date</div>
+                                    <div class="full-box">
+                                        <div class="full-box relative">
+                                            <input type="text" id="datepicker1"  placeholder="From">
+                                            <div class="absulute-btn-i block-title-2 padding-0 border-none">
+                                                <i class="zmdi zmdi-calendar-alt"></i>
+                                            </div>
+                                        </div>
+                
+                                    
+                                    </div>
+                                </div>
+                                  
+                                
+                                <div class=" clearfix"></div>
+                            </div> 
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="req-1"><i class="zmdi zmdi-view-dashboard"></i></div>
+                                <div class="req-2">
+                                    <div class="txt">Type</div>
+                                    <div class="full-box">
+                                        <div class="btn-group">
+                                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Private<i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Private </a></li>
+                                                        <li><a href="#">Public </a></li>
+                                                        <li><a href="#">100-150</a></li>
+                                                        <li><a href="#">150-200 </a></li>
+                                                        <li><a href="#">200-250</a></li>
+                                                        <li><a href="#">250-300 </a></li>
+                                                        <li><a href="#">350-400</a></li>
+                                                        <li><a href="#">400-450 </a></li>
+                                                        <li><a href="#">450-500 </a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                    </div>
+                                </div>
+                                <div class=" clearfix"></div>
+                            </div> 
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="req-1"><i class="zmdi zmdi-accounts-outline"></i></div>
+                                <div class="req-2">
+                                    <div class="txt">Number of Employees</div>
+                                    <div class="full-box">
+                                    
+                                    <div class="full-box">
+                                        <div class="btn-group">
+                                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">10-50<i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">10-50 </a></li>
+                                                        <li><a href="#">50-100 </a></li>
+                                                        <li><a href="#">100-150</a></li>
+                                                        <li><a href="#">150-200 </a></li>
+                                                        <li><a href="#">200-250</a></li>
+                                                        <li><a href="#">250-300 </a></li>
+                                                        <li><a href="#">350-400</a></li>
+                                                        <li><a href="#">400-450 </a></li>
+                                                        <li><a href="#">450-500 </a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                    </div>
+                                    
+                                    </div></div>
+                                <div class=" clearfix"></div>
+                            </div> 
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="req-1"><i class="zmdi zmdi-view-quilt"></i></div>
+                                <div class="req-2">
+                                    <div class="txt">Classification</div>
+                                    <div class="full-box">
+                                    <div class="full-box">
+                                        <div class="btn-group">
+                                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Free Zone Company<i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Free Zone Company </a></li>
+                                                        <li><a href="#">Free Zone Company </a></li>
+                                                        <li><a href="#">Free Zone Company</a></li>
+                                                        <li><a href="#">Free Zone Company</a></li>
+                                                        <li><a href="#">Free Zone Company</a></li>
+                                                        <li><a href="#">Free Zone Company </a></li>
+                                                        <li><a href="#">Free Zone Company</a></li>
+                                                        <li><a href="#">Free Zone Company </a></li>
+                                                        <li><a href="#">Free Zone Company </a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                    </div>
+                                    
+                                    </div></div>
+                                <div class=" clearfix"></div>
+                            </div> 
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+        </div>
+
+        
+<!---------- Company Details Details Section ------------>  
+        
+<div class="summary">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="block bottom-gap">
+
+
+      
+                <div class="block-title-2">
+                    <div class="left"><h4>About Company</h4></div>
+                    <div class="right">
+                        <button><i class="zmdi zmdi-floppy"></i> Save</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="block-contant">
+
+                    <textarea>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </textarea>    
+                    <div class="txt font-12">Maximum 1000 words</div>
+
+                </div>
+
+           
+        </div>
+    </div>
+
+</div>
+        
+<!---------- Our Team Details  ------------>  
+<div class="summary">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="block bottom-gap our-team">
+            <div class="block-title-2">
+                <div class="left"><h4>Our Team</h4></div>
+                <div class="right">
+                    <button><i class="zmdi zmdi-floppy"></i> Save</button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="block-contant border-bottom padding-20-0">
+       
+                
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-6">
+            <div class="team-photo"> <img src="images/our-team-5.png"> </div>  
+            <div class="team-details"> 
+                <div class="navy"> Chystine Hineu </div>    
+                <div class=" light">Area Director </div>  
+                <div class="row display">
+                    <div class="social-section">    
+                        <div class="social-media">
+                            <a href="#"><div class="s-media facebook"><i class="zmdi zmdi-facebook"></i></div> </a>
+                            <a href="#"><div class="s-media twitter"><i class="zmdi zmdi-twitter"></i></div> </a>
+                            <a href="#"><div class="s-media linkdin"><i class="zmdi zmdi-linkedin"></i></div> </a>
+                            <a href="#"><div class="s-media google-plus"><i class="zmdi zmdi-google-plus"></i></div> </a>
+                            <div class=" clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+        <div class="col-lg-5 col-md-5 col-sm-6 block-title-2 border-none padding-0 "> 
+             <button id="teamedit-click"><i class="zmdi zmdi-edit"></i> Edit </button>
+            <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+        </div>  
+        <div class="clearfix"></div>  
+    </div>   
+</div>
+                
+                
+                
+ 
+               
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-6">
+            <div class="team-photo"> <img src="images/our-team.png"> </div>  
+            <div class="team-details"> 
+                <div class="navy"> Chystine Hineu </div>    
+                <div class=" light">Area Director </div>  
+                <div class="row display">
+                    <div class="social-section">    
+                        <div class="social-media">
+                            <a href="#"><div class="s-media facebook"><i class="zmdi zmdi-facebook"></i></div> </a>
+                            <a href="#"><div class="s-media twitter"><i class="zmdi zmdi-twitter"></i></div> </a>
+                            <a href="#"><div class="s-media linkdin"><i class="zmdi zmdi-linkedin"></i></div> </a>
+                            <a href="#"><div class="s-media google-plus"><i class="zmdi zmdi-google-plus"></i></div> </a>
+                            <div class=" clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+        <div class="col-lg-5 col-md-5 col-sm-6 block-title-2 border-none padding-0 "> 
+               <button id="teamedit-click"><i class="zmdi zmdi-edit"></i> Edit </button>
+            <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+        </div> 
+        <div class="clearfix"></div>  
+    </div>   
+</div> 
+
+<!--------------------------- Team Member Edit ----------------------------------------------->                
+<div class="row edit-team display-0" id="teamedit-open">
+          
+              <div class="col-lg-12 col-xs-12 block-contant padding-10 member  border-bottom border-top">
+                  <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                      
+                      <div class="member-upload-rel">
+                      <div class="member-box"><img src="images/our-team-5.png"></div>
+                    <a href="#" data-toggle="modal" data-target=".up-ourteam">
+                    <div class="member-editer">
+                        <div><i class="zmdi zmdi-camera-add"></i></div>
+                        <div>Upload</div>
+                    </div>
+                    </a>
+                        
+                    </div>      
+                      
+
+                      <div class="member-field"> 
+                            <div class="full-box"><input type="text" class="feld-url" placeholder="Chystine Hineu ">  </div>
+                            <div class="full-box"><input type="text" class="feld-url" placeholder="Area Director ">  </div>
+                      </div>
+                  
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="ab-box">
+                           <span class="facebook"> <i class="zmdi zmdi-facebook"></i> </span>
+                          <input type="text" class="feld-url" placeholder="Facebook URL"> 
+                      </div>
+                      <div class="ab-box">  
+                          <span class="twitter"><i class="zmdi zmdi-twitter"></i></span>   
+                          <input type="text" class="feld-url" placeholder="Twitter URL"> </div>
+                      
+                      </div>
+                     <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="ab-box">
+                           <span class="linkdin"> <i class="zmdi zmdi-linkedin"></i> </span>
+                          <input type="text" class="feld-url" placeholder="Linkedin URL"> 
+                      </div>
+                      <div class="ab-box">  
+                          <span class="google-plus"><i class="zmdi zmdi-google-plus"></i></span>   
+                          <input type="text" class="feld-url" placeholder="Google Plus URL"> </div>
+                      
+                      </div>
+                  </div>
+                  
+                  <div class="row block-title-2 padding-10  border-none">
+                      <button> <i class="zmdi zmdi-floppy"></i> Save </button>
+                      <span class="cancel padding-0" id="teamedit-close">
+                          <button><i class="zmdi zmdi-close"></i> Cancel</button>
+                      </span>
+                  </div>
+    
+
+                  
+                  <div class="clearfix"></div>
+                  
+            </div>
+            </div>                
+<!-------------------------------------------------------------------------->                             
+                
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-6">
+            <div class="team-photo"> <img src="images/our-team-2.png"> </div>  
+            <div class="team-details"> 
+                <div class="navy"> Chystine Hineu </div>    
+                <div class=" light">Area Director </div>  
+                <div class="row display">
+                    <div class="social-section">    
+                        <div class="social-media">
+                            <a href="#"><div class="s-media facebook"><i class="zmdi zmdi-facebook"></i></div> </a>
+                            <a href="#"><div class="s-media twitter"><i class="zmdi zmdi-twitter"></i></div> </a>
+                            <a href="#"><div class="s-media linkdin"><i class="zmdi zmdi-linkedin"></i></div> </a>
+                            <a href="#"><div class="s-media google-plus"><i class="zmdi zmdi-google-plus"></i></div> </a>
+                            <div class=" clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+        <div class="col-lg-5 col-md-5 col-sm-6 block-title-2 border-none padding-0 "> 
+            <button><i class="zmdi zmdi-edit"></i> Edit </button>
+            <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+        </div> 
+        <div class="clearfix"></div>  
+    </div>   
+</div> 
+                
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-6">
+            <div class="team-defult"><i class="icon-profile"></i></div>  
+            
+            <div class="team-details"> 
+                <div class="navy"> Chystine Hineu </div>    
+                <div class=" light">Area Director </div>  
+                <div class="row display">
+                    <div class="social-section">    
+                        <div class="social-media">
+                            <a href="#"><div class="s-media facebook"><i class="zmdi zmdi-facebook"></i></div> </a>
+                            <a href="#"><div class="s-media twitter"><i class="zmdi zmdi-twitter"></i></div> </a>
+                            <a href="#"><div class="s-media linkdin"><i class="zmdi zmdi-linkedin"></i></div> </a>
+                            <a href="#"><div class="s-media google-plus"><i class="zmdi zmdi-google-plus"></i></div> </a>
+                            <div class=" clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+        <div class="col-lg-5 col-md-5 col-sm-6 block-title-2 border-none padding-0 "> 
+            <button><i class="zmdi zmdi-edit"></i> Edit </button>
+            <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+        </div> 
+        <div class="clearfix"></div>  
+    </div>   
+</div>                 
+
+               
+                
+            
+                
+                
+    
+        <div class="clearfix"></div>
+            </div>
+            
+            <div class="row">
+              <div class="block-title border-none"> <h4>Add New Team Member</h4></div>
+              <div class="block-contant padding-10 member">
+                  <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+
+                     <a href="#" data-toggle="modal" data-target=".up-ourteam"><div class="member-box">
+                         <div><i class="zmdi zmdi-camera-add"></i></div>
+                        <div>Upload</div>
+                      </div></a>
+                      <div class="member-field"> 
+                            <div class="full-box"><input type="text" class="feld-url" placeholder="Name">  </div>
+                            <div class="full-box"><input type="text" class="feld-url" placeholder="Position">  </div>
+                      </div>
+                  
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="ab-box">
+                           <span class="facebook"> <i class="zmdi zmdi-facebook"></i> </span>
+                          <input type="text" class="feld-url" placeholder="Facebook URL"> 
+                      </div>
+                      <div class="ab-box">  
+                          <span class="twitter"><i class="zmdi zmdi-twitter"></i></span>   
+                          <input type="text" class="feld-url" placeholder="Twitter URL"> </div>
+                      
+                      </div>
+                     <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="ab-box">
+                           <span class="linkdin"> <i class="zmdi zmdi-linkedin"></i> </span>
+                          <input type="text" class="feld-url" placeholder="Linkedin URL"> 
+                      </div>
+                      <div class="ab-box">  
+                          <span class="google-plus"><i class="zmdi zmdi-google-plus"></i></span>   
+                          <input type="text" class="feld-url" placeholder="Google Plus URL"> </div>
+                      
+                      </div>
+                  </div>
+                  
+                  <div class="row block-title-2 padding-10  border-none">
+                      <button> <i class="zmdi zmdi-plus-circle"></i> Add </button>
+                      <div class="txt font-12"> Maximum 8 Members</div>
+                  </div>
+    
+
+                  
+                  <div class="clearfix"></div>
+                  
+            </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>
+        
+        
+        
+
+<!---------- Our Culture Details  ----------  -->
+<div class="culture">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="block bottom-gap">
+            <div class="block-title-2 ">
+                <div class="left"><h4>Our Culture</h4></div>
+                <div class="right btn-size">
+                    <button><i class="zmdi zmdi-floppy"></i> Save</button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="block-contant padding-0">
+                
+                <div class="our-team col-lg-6"> 
+                    <div class="scroll"> 
+                        
+                        <div class="row" id="culture-hide">
+                            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                                <div class="team-photo"> <img src="images/culture-tumb-1.png"> </div>  
+                                <div class="team-details"> 
+                                    <div class=" navy">Work Culture of Developing Team </div>  
+                                </div>  
+                                <div class="clearfix"></div>
+                            </div> 
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 block-title-2 border-none padding-0 "> 
+                                <button id="culture-click" ><i class="zmdi zmdi-edit"></i> Edit </button>
+                                <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+                            </div> 
+                            <div class="clearfix"></div>  
+                        </div>   
+<!-----------------------------------Culture edit --------------------------------------->
+                        <div class="row upload-dp display-0 " id="culture-open">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                
+                                <div class="team-photo-rel">
+                                <div class="team-photo"> <img src="images/culture-tumb-1.png"> </div>
+                                    
+                                <a href="#" data-toggle="modal" data-target=".up-culture">
+                                <div class="team-photo-editer">
+                                        <div><i class="zmdi zmdi-camera-add"></i></div>
+                                        <div>Upload</div>    
+                                </div>
+                                </a>
+                                    
+                                </div>
+                                
+                                <div class="team-details"> 
+                                    <div class="full-box"> <input class="feld-url" type="text" placeholder="Tittle"></div>  
+                            <div class="full-box">
+                       
+                                <div class='fancy-file'>
+                                    <div class='fancy-file-name'>&nbsp;</div>
+                                    <button class='fancy-file-button'>Browse</button>
+                                    <div class='input-container'>
+                                        <input type='file'>
+                                    </div>
+                                </div>
+                            </div>   
+                                </div>  
+                                <div class="clearfix"></div>
+                            </div> 
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-title-2 border-none padding-0 "> 
+                                <button><i class="zmdi zmdi-floppy"></i>  Save </button>
+                                <span id="culture-close" class="cancel padding-0"><button><i class="zmdi zmdi-close"></i> Cancel</button></span>
+                            </div> 
+                            <div class="clearfix"></div>  
+                        </div> 
+                        
+<!-------------------------------------------------------------------------->
+                        
+                        
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                                <div class="team-photo"> <img src="images/culture-tumb-2.png"> </div>  
+                                <div class="team-details"> 
+                                    <div class=" navy">Work Culture of Developing Team </div>  
+                                </div>  
+                                <div class="clearfix"></div>
+                            </div> 
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 block-title-2 border-none padding-0 "> 
+                                <button><i class="zmdi zmdi-edit"></i> Edit </button>
+                                <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+                            </div> 
+                            <div class="clearfix"></div>  
+                        </div>                        
+                        
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                                <div class="team-photo"> <img src="images/culture-tumb-3.png"> </div>  
+                                <div class="team-details"> 
+                                    <div class=" navy">Work Culture of Developing Team </div>  
+                                </div>  
+                                <div class="clearfix"></div>
+                            </div> 
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 block-title-2 border-none padding-0 "> 
+                                <button><i class="zmdi zmdi-edit"></i> Edit </button>
+                                <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+                            </div> 
+                            <div class="clearfix"></div>  
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                                <div class="team-photo"> <img src="images/culture-tumb-4.png"> </div>  
+                                <div class="team-details"> 
+                                    <div class=" navy">Work Culture of Developing Team </div>  
+                                </div>  
+                                <div class="clearfix"></div>
+                            </div> 
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 block-title-2 border-none padding-0 "> 
+                                <button><i class="zmdi zmdi-edit"></i> Edit </button>
+                                <span class="cancel padding-0"><button><i class="zmdi zmdi-delete"></i> Delete</button></span>
+                            </div> 
+                            <div class="clearfix"></div>  
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+                <div class="col-lg-6"> 
+
+                    
+                   <div class="row upload-dp">
+                    <div class="col-lg-12">
+                        <div class="row block-title padding-0 border-none">
+                            <span class="pull-left" ><h4> Add New Pictures </h4></span>
+                            <span class="pull-right txt font-12 ">Maximum 6 Pictures  </span>    
+                        </div>
+                        
+                        <div class="row margin-top-20">
+                        
+                       <div class="full-box"><input type="text" class="feld-url" placeholder="Tittle"> </div>
+                            
+                            <div class="browse-box">
+                                <div class="navy"> Thambnail </div>    
+                                <div class='fancy-file'>
+                                    <div class='fancy-file-name'>&nbsp;</div>
+                                    <button class='fancy-file-button'>Browse</button>
+                                    <div class='input-container'>
+                                        <input type='file'>
+                                    </div>
+                                </div>
+                            </div>   
+                            
+                            <div class="browse-box">
+                                <div class="navy"> Main Image </div>    
+                                <div class='fancy-file'>
+                                    <div class='fancy-file-name'>&nbsp;</div>
+                                    <button class='fancy-file-button'>Browse</button>
+                                    <div class='input-container'>
+                                        <input type='file'>
+                                    </div>
+                                </div>
+                            </div>  
+                            
+                            
+                            
+                            
+                        </div>
+                        
+                    <div class="row block-title-2 padding-0 pading-top-10 border-none">
+                      <button> <i class="zmdi zmdi-plus-circle"></i> Add </button>
+                    
+                  </div>
+                        
+                        
+                        
+                       </div>
+                    </div>
+                    
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+              
+        
+ 
+
+    </div>
+</div>          
+<div class="clearfix"></div>   
+</div>         
+        
+           
+        
+        
+<!---------------------------------- footer -------------------------------------> 
+        
+<footer>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">About BLOOVO</a>
+        <a href="#">Company Director</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Blog</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+        
+         
+        
+<!-------------------------------- end footer -------------------------------------->          
+
+
+<!---------------------- Logout POPUP Content --------------------------->     
+<!-- cover photo  popup -->           
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade up-cover-photo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body upload-dp">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Upload a new cover photo</H2>
+                        <h4>We’ve had a look through your Profile and could not find any suitable image</h4>
+
+                        <div class="cover-icn">
+                        
+                            <div class="cvr-sympl">
+                                <i class="icon-landscape"></i>
+                 
+                            <div class="light">Landscape </div>   
+                            </div>
+                            
+                             <div class="cvr-sympl"> 
+                                 <i class="icon-min-width"></i>
+                                 <div class="light">Min - 1440px wide </div>   
+                                </div>
+                        
+                        </div>
+                        
+               
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+               
+                        
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+ 
+<!-- profile photo popup -->             
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade up-employer-profilephoto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body upload-dp">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Upload a new photo</H2>
+                        <h4>We accept <span class="dark">.PNG</span> or <span class="dark">.JPEG</span> file format only</h4>
+
+                        <div class="cover-icn">
+                        
+                            <div class="cvr-sympl">
+                                <i class="icon-hight-width"></i>
+                 
+                            <div class="light">Min- 850 x 485</div>   
+                            </div>
+   
+                        
+                        </div>
+                        
+               
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+               
+                        
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            
+                          <a data-target=".employer-crop" data-toggle="modal"> dummy test crop </a>
+                            
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade employer-crop" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body upload-dp">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <h2>Adjust your profile photo</h2>
+                        <div class="crop">df </div>
+                    
+
+ 
+                        
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            
+                           
+                            
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+                
+        
+         
+<!-- Our Team photo popup -->             
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade up-ourteam" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body upload-dp">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Upload a new photo</H2>
+                        <h4>We accept <span class="dark">.PNG</span> or <span class="dark">.JPEG</span> file format only</h4>
+
+                        <div class="cover-icn">
+                        
+                            <div class="cvr-sympl">
+                                <i class="icon-hight-width"></i>
+                 
+                            <div class="light">Min- 850 x 485</div>   
+                            </div>
+   
+                        
+                        </div>
+                        
+               
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+               
+                        
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<!-- Our Culture popup -->             
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade up-culture" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body upload-dp">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Upload a new photo</H2>
+                        <h4>We accept <span class="dark">.PNG</span> or <span class="dark">.JPEG</span> file format only</h4>
+
+                        <div class="cover-icn">
+                        
+                            <div class="cvr-sympl">
+                                <i class="icon-hight-width"></i>
+                 
+                            <div class="light">Min- 850 x 485</div>   
+                            </div>
+   
+                        
+                        </div>
+                        
+               
+                        <div class='fancy-file'>
+                            <div class='fancy-file-name'>&nbsp;</div>
+                            <button class='fancy-file-button'>Browse</button>
+                                <div class='input-container'>
+                                    <input type='file'>
+                                </div>
+                        </div>
+               
+                        
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Ok</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+          
+
+        
+        
+</div>
+
+
+
+
+</div>
+
+    
+
+
+    
+<!--------------------------- Commen jquery ------------------------------->	 
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+
+<!--------------------------- Menu jquery ------------------------------->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!--------------------- Tool Tip --------------------->    
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+    
+    
+<!--------------------- Folow following script --------------------->       
+<script>    
+    $('button').click(function(){
+        var $this = $(this);
+        $this.toggleClass('following')
+        if($this.is('.following')){
+            $this.addClass('wait');
+        }
+    }).on('mouseleave',function(){
+        $(this).removeClass('wait');
+    })
+</script> 
+    
+
+
+ <!--------------------- Dropdown script --------------------->  
+ <script>                              
+$(document).ready(function() {
+    $('.dropdown-menu li a').click(function(event) {
+        var option = $(event.target).text();
+        $(event.target).parents('.btn-group').find('.dropdown-toggle').html(option+' <span class="caret"></span>');
+    });
+});
+</script>
+    
+ 
+
+    
+
+
+
+    
+<!--------------------- Alert script --------------------->   
+    
+<script>
+$(document).ready(function(){
+    $("#alert-close").click(function(){
+        $("#alert-open").hide();
+    });
+    $("#alert-click").click(function(){
+        $("#alert-open").show();
+    });
+});
+</script>
+    
+ <!--------------------- Matching Jobs tag script --------------------->      
+<script>
+$(document).ready(function(){
+    $("#tage-close1").click(function(){
+        $("#tage-hide1").hide();
+    });
+
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#tage-close2").click(function(){
+        $("#tage-hide2").hide();
+    });
+
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#tage-close3").click(function(){
+        $("#tage-hide3").hide();
+    });
+
+});
+</script>
+    
+    
+    
+    
+ <!--------------------- carousel script --------------------->        
+<script>
+$('.carousel').carousel({
+    interval:false
+});     
+</script> 
+    
+<!--------------------- Filter script --------------------->  
+    
+
+<!--Company Our Culture-->
+    
+<script>    
+    
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});    
+</script>   
+    
+    
+    
+
+ <!-- social media script -->   
+<script>
+    
+    $(document).ready(function(){
+
+
+    $("#fb-section,#tw-section,#in-section,#gp-section,#sk-section").hide();    
+
+    $("#fb").click(function(){
+    $("#fb-section").fadeToggle();
+    $("#in-section").hide();
+    $("#gp-section").hide();
+    $("#sk-section").hide();
+    $("#tw-section").hide();
+
+    });
+    $("#tw").click(function(){
+    $("#tw-section").fadeToggle();
+    $("#in-section").hide();
+    $("#gp-section").hide();
+    $("#sk-section").hide();
+    $("#fb-section").hide();    
+
+    });
+    $("#in").click(function(){
+    $("#in-section").fadeToggle();
+    $("#fb-section").hide();
+    $("#gp-section").hide();
+    $("#sk-section").hide();
+    $("#tw-section").hide();    
+        
+    });
+    $("#gp").click(function(){
+    $("#gp-section").fadeToggle();
+    $("#fb-section").hide();
+    $("#in-section").hide();
+    $("#sk-section").hide();
+    $("#tw-section").hide();    
+        
+    });
+    $("#sk").click(function(){
+    $("#sk-section").fadeToggle();
+    $("#fb-section").hide();
+    $("#gp-section").hide();
+    $("#in-section").hide();
+    $("#tw-section").hide();    
+        
+    });
+    });
+    
+</script>
+    
+    
+
+ <!--------------------- Dropdown script --------------------->  
+ <script>                              
+$(document).ready(function() {
+    $('.dropdown-menu li a').click(function(event) {
+        var option = $(event.target).text();
+        $(event.target).parents('.btn-group').find('.dropdown-toggle').html(option+' <span class="caret"></span>');
+    });
+});
+</script>
+    
+    
+     
+<!--Browse script-->
+    
+<script>
+$('div.fancy-file input:file').bind('change blur', function() {
+var $inp = $(this), fn;
+
+fn = $inp.val();
+if (/fakepath/.test(fn))
+fn = fn.replace(/^.*\\/, '');
+
+$inp.closest('.fancy-file').find('.fancy-file-name').text(fn);
+});                        
+</script>   
+    
+    
+    <!--------------------- Date Picker Progress script --------------------->      
+
+    <script src="js/date-picker.js"></script>
+    <script>
+
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+
+    </script> 
+    
+    <script>
+
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker1'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+
+    </script>  
+
+<!--------------------- Alert script --------------------->   
+    
+<script>
+$(document).ready(function(){
+    $("#teamedit-close").click(function(){
+        $("#teamedit-open").hide();
+    });
+    $("#teamedit-click").click(function(){
+        $("#teamedit-open").show();
+    });
+});
+</script>
+    
+<script>
+$(document).ready(function(){
+    $("#culture-close").click(function(){
+        $("#culture-open").hide();
+         $("#culture-hide").show();
+    });
+    $("#culture-click").click(function(){
+        $("#culture-open").show();
+        $("#culture-hide").hide();
+    });
+});
+</script>    
+
+
+
+
+
+
+   
+</body>
+</html>

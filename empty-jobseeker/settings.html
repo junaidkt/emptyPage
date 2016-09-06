@@ -1,0 +1,489 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+
+</head>
+    
+
+    
+<body>
+
+
+ <!-- Menu -->
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="search-mobile hide-mobile bloovo-left">
+                            <input type="text" placeholder="Search " name="">
+                            <i class="zmdi zmdi-search"></i>
+                        </div>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="icon-profile"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="companies.html" data-toggle="tooltip" data-placement="right" title="Companies"><i class="zmdi zmdi-city-alt"></i><span> Companies</span></a></li>
+                    <li><a href="blog.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-- Content Area -->
+<div class="bloovo-container">
+    <div class="side-body">
+<!-- header -->     
+        <div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+                <div class="search">
+                    <input type="text" placeholder="Search for Jobs or Companies " name="">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+                <div class="dropdown">
+                  <button class="dropbtn"><div class="profile-picture bloovo-right "></div>
+                      <div class="profile-name bloovo-right">Alexander Paul</div></button>
+
+                    <div class="dropdown-content">
+                      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+
+                        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+                        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+                        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+
+                  </div>
+                </div>
+
+                <div class=" clr"></div>
+            </div>    
+        </div>
+<!-- Contents -->       
+<!-- JobContent -->         
+    
+
+
+<div class="commen-container-less">
+    <div class="col-lg-12">
+        <div class="block settings bottom-gap">
+            <div class="col-lg-6 col-md-6 col-sm-12 padding-none">
+                <h2>Account Settings</h2>
+                <div class="row padding-20 txt border-bottom min-height">
+                    
+                    <div class="row pspacing">
+                        <div><span>User Name</span><p>Your username must be at least 6 charectors long.</p></div>
+                        <input type="text" name="username" placeholder="Alexander Poal">
+                    </div>
+                    
+                    <div class="row spacing">
+                        <div class="row"><span>Password</span></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 padding-none">
+                            <p class="align-left">Current Password</p>
+                            <input type="text" name="password" placeholder="******" class="half">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 padding-none">
+                            <p class="align-left margin-left">New Password</p>
+                            <input type="text" name="confirm password" placeholder="******" class="half left">
+                        </div>
+                    </div>
+
+                     <div class="row pspacing">
+                        <div class="row padding-btm-10"><span>New Passwords</span></div>
+                        <input type="text" name="username" placeholder="********">
+                    </div>
+
+                    <div class="row block-footer padding-none"><button>Save Changes</button></div>
+
+                </div>
+
+                <!-- Deactivate Your Account -->
+                <h2 class="border-none padding-btm-0">Deactivate Your Account</h2>
+                <div class="row padding-20 txt min-height-165">
+                    <div class="row pspacing">
+                        <p class="align-left font-16">If you deactivate your account your profile won’t be visible to other people on BLOOVO and people won’t be able to search for you. </p>
+                    </div>
+                    <div class="row block-footer padding-none"><button>Save Changes</button></div>
+
+                </div>
+            </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12 padding-none border-left">
+                <h2>Notification Settings</h2>
+                <div class="row padding-20 txt border-bottom min-height">
+                    
+                    <div class="row pspacing border-bottom hidden-sm hidden-xs hidden-md">
+                        <div class="col-lg-6 zero-margin">
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-lg-6 zero-margin">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-3 col-xs-3"><strong>Daily</strong></div>
+                                <div class="col-lg-3 col-sm-3 col-xs-3"><strong>Weekly</strong></div>
+                                <div class="col-lg-3 col-sm-3 col-xs-3"><strong>Monthly</strong></div>
+                                <div class="col-lg-3 col-sm-3 col-xs-3"><strong>None</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        
+                            <div class="col-lg-6 zero-margin">
+                                <h3>Suggested Jobs </h3>
+                            </div>
+                            <div class="col-lg-6 zero-margin">
+                                <div class="skill-radio clicks">
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio10" value="option1">
+                                            <label for="radio10">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Daily</span>
+                                            </label>
+                                        </div>                                           
+                                    </div>  
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio11" value="option1">
+                                            <label for="radio11">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Weekly</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio12" value="option1">
+                                            <label for="radio12">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Monthly</span>
+                                            </label>
+                                        </div>    
+                                    </div> 
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio13" value="option1">
+                                            <label for="radio13">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">None</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class=" clearfix"></div>    
+                                </div>
+                            </div>
+                        
+                    </div> 
+
+<div class="row">
+                        
+                            <div class="col-lg-6 zero-margin">
+                                <h3>Blog Posts </h3>
+                            </div>
+                            <div class="col-lg-6 zero-margin">
+                                <div class="skill-radio clicks">
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio14" value="option1">
+                                            <label for="radio14">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Daily</span>
+                                            </label>
+                                        </div>                                           
+                                    </div>  
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio15" value="option1">
+                                            <label for="radio15">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Weekly</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio16" value="option1">
+                                            <label for="radio16">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Monthly</span>
+                                            </label>
+                                        </div>    
+                                    </div> 
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio17" value="option1">
+                                            <label for="radio17">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">None</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class=" clearfix"></div>    
+                                </div>
+                            </div>
+                        
+                    </div> 
+
+                    <div class="row border-bottom">
+                        
+                            <div class="col-lg-6 zero-margin">
+                                <h3>Polls </h3>
+                            </div>
+                            <div class="col-lg-6 zero-margin">
+                                <div class="skill-radio clicks">
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio18" value="option1">
+                                            <label for="radio18">
+                                                <span class="hidden-lg visible-xs visible-sm  visible-md">Daily</span>
+                                            </label>
+                                        </div>                                           
+                                    </div>  
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio19" value="option1">
+                                            <label for="radio19">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Weekly</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio20" value="option1">
+                                            <label for="radio20">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">Monthly</span>
+                                            </label>
+                                        </div>    
+                                    </div> 
+                                    <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio21" value="option1">
+                                            <label for="radio21">
+                                                <span class="hidden-lg visible-xs visible-sm visible-md">None</span>
+                                            </label>
+                                        </div>    
+                                    </div>   
+                                    <div class=" clearfix"></div>    
+                                </div>
+                            </div>
+                        
+                    </div> 
+               
+
+                <!-- Visibility to My Current Employer  -->
+                 <div class="row border-bottom padding-top-bot-10">
+                     <div class="col-lg-6 zero-margin"><h3>Visibility to My Current Employer</h3></div>
+                     <div class="col-lg-6 zero-margin">
+                         <div class="skill-radio clicks">
+                                    <div class="sk-radio spacing-left">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio22" value="option1">
+                                            <label for="radio22">
+                                                <span>Yes</span>
+                                            </label>
+                                        </div>                                           
+                                    </div>
+                                      <div class="sk-radio">
+                                         <div class="radio radio-primary">
+                                            <input type="radio" name="radio3" id="radio23" value="option1">
+                                            <label for="radio23">
+                                                <span>No</span>
+                                            </label>
+                                        </div>                                           
+                                    </div>  
+                                    
+                                    <div class=" clearfix"></div>    
+                                </div>
+                     </div>
+                 </div>    
+
+
+                <div class="row block-footer padding-none"><button>Save Changes</button></div>
+
+                </div>
+
+                <!-- Deactivate Your Account -->
+                <h2 class="border-none padding-btm-0">Newsletter Subscription</h2>
+                <div class="row padding-20 txt min-height-165">
+                    <div class="row pspacing">
+                        <p class="align-left font-16">Click Here to Unsubscribe to BLOOVO’s Newsletters. </p>
+                    </div>
+                    <div class="row block-footer padding-none"><button>Save Changes</button></div>
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div> 
+         
+<!--  <div class="settings_container">
+     <div class="row">
+         <div class="col-lg-6">
+             <h2>Account Settings</h2>
+             <div class="row"></div>
+         </div>
+         <div class="col-lg-6">x hvJ</div>
+     </div>
+ </div> -->
+   
+  
+
+      
+        
+<!-- 
+footer  -->
+<footer>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">About BLOOVO</a>
+        <a href="#">Company Director</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Blog</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+        
+         
+        
+<!-- end footer  -->      
+
+
+<!-- Logout POPUP Content  -->   
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade save-search " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Save Search</H2>
+                        
+                        <div class="full-box"> <input type="text" name="phn" placeholder="Nodes Technology"></div>
+                        <div class="edit">
+                                  <div class="btn-group">
+                                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Select Country <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Al Ain </a></li>
+                                                <li><a href="#">Dubai </a></li>
+                                                <li><a href="#">Rasalkyma </a></li>
+                                                <li><a href="#">Soudi Arabia </a></li>
+                                                <li><a href="#">Rasalkyma </a></li>
+                                                <li><a href="#">Dubai </a></li>
+                              
+                                            </ul>
+                                        </div>
+                        </div>
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Yes</button>
+                            <button type="button" class="btn negative">No</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+        
+</div>
+
+
+
+
+</div>
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+<!-- Commen jquery -->
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+
+    
+  
+<!--Menu jquery -->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!-- Tool Tip -->
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+ 
+</body>
+</html>

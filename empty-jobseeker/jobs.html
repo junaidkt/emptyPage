@@ -1,0 +1,1283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+
+
+    
+
+
+	
+
+</head>
+    
+
+    
+<body>
+
+
+   
+    
+    
+
+
+ <!----------------------Menu----------------------------->   
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="search-mobile hide-mobile bloovo-left">
+                            <input type="text" placeholder="Search " name="">
+                            <i class="zmdi zmdi-search"></i>
+                        </div>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="icon-profile"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="companies.html" data-toggle="tooltip" data-placement="right" title="Companies"><i class="zmdi zmdi-city-alt"></i><span> Companies</span></a></li>
+                    <li><a href="blog.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-------------------- Content Area ------------------>
+<div class="bloovo-container">
+    <div class="side-body">
+<!--------------------------------- header ------------------------------------->	     
+        <div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+                <div class="search">
+                    <input type="text" placeholder="Search for Jobs or Companies " name="">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+  
+<div class="dropdown">
+  <button class="dropbtn"><div class="profile-picture bloovo-right "></div>
+      <div class="profile-name bloovo-right">Alexander Paul</div></button>
+    
+    <div class="dropdown-content">
+      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+  
+        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+      
+  </div>
+</div>
+
+                
+                
+                
+                <div class=" clr"></div>
+            </div>    
+        </div>
+<!-------- Contents --------->        
+<!--------------------------- JobContent ---------------------------------->           
+<div class=" main-tab">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#all-jobs" aria-controls="all-jobs" role="tab" data-toggle="tab"><i class="zmdi zmdi-case"></i> All-jobs
+            </a>
+        </li>
+        <li role="presentation"><a href="#suggested-jobs" aria-controls="suggested-jobs" role="tab" data-toggle="tab"><i class="icon-suggestedjobs"></i>
+            Suggested Jobs
+            </a>
+        </li>
+        
+        <li role="presentation"><a href="#my-jobs" aria-controls="my-jobs" role="tab" data-toggle="tab"><i class="icon-my-jobs"></i>
+            My Jobs
+            </a>
+        </li>
+        <li role="presentation"><a href="#saved-searches" aria-controls="saved-searches" role="tab" data-toggle="tab"><i class="icon-saved-searches"></i>
+            Saved Searches
+            </a>
+        </li>
+        <li role="presentation"><a href="#saved-jobs" aria-controls="saved-jobs" role="tab" data-toggle="tab"><i class="icon-saved-jobs"></i>
+           Saved Jobs
+            </a>
+        </li>
+    </ul>
+</div>     
+        
+<div class="tab-content job-bloovo">
+<!--------------------------- All Jobs ---------------------------------->       
+<div role="tabpanel" class="tab-pane active" id="all-jobs">
+    <div class="commen-container">
+        
+<!--SAIDEBAR-->
+        
+        <div class="col-lg-3 refine-serch filter-hide ">
+            <div class="block bottom-gap">
+                <div class="row block-title">
+                    <h2>Refine Your Search By</h2>
+                </div> 
+
+                <!--FILTER-->
+                <div class="row filter clicks">
+                    <div id="main">
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="border-none">
+                                            Location
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            City
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                                            Sector
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapsethree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                            Functional Area
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                            Job Type
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                            Salary Level
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                                            Education Level
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                            Experience Level
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                            Company
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+
+                                        <div class="fltr-check">
+                                            <input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
+                                            <label class="css-label" for="checkboxG1">United Arab Emirates</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG2" class="css-checkbox" type="checkbox" name="checkboxG2">
+                                            <label class="css-label" for="checkboxG2">Pakistan</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG3" class="css-checkbox" type="checkbox" name="checkboxG3">
+                                            <label class="css-label" for="checkboxG3">Germany</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG4" class="css-checkbox" type="checkbox" name="checkboxG4">
+                                            <label class="css-label" for="checkboxG4">France</label>
+                                        </div>  
+                                        <div class="fltr-check">
+                                            <input id="checkboxG5" class="css-checkbox" type="checkbox" name="checkboxG5">
+                                            <label class="css-label" for="checkboxG5">United States</label>
+                                        </div>  
+
+                                        <div>
+                                            <div class="filter-add">
+                                                <div class="pull-left"><i class="icon-add"></i>  </div>
+                                                <div class="pull-left"><span>More</span></div> 
+                                                <div class=" clearfix"></div>
+                                            </div> 
+                                            <div class="filter-open">
+                                                <input type="text" name="phn" placeholder="|">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--BUTTONS SUBMIT REFERESH-->
+                <div class="row block-footer border-none padding-top-0 padding-btm-10">
+                    <button class="apply">Apply</button>
+                    <button class="reset">Reset</button>
+                </div>
+
+                <!--MAIN BUTTON--> 
+                <div class="row block-footer border-none padding-top-0">
+                    <a data-target=".save-search " data-toggle="modal"> <button class="save-serch"><i class="zmdi zmdi-floppy"></i> Save Search</button></a>
+                </div>
+            </div>
+        </div>
+      
+        
+        <!--BODY-AREA-->        
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+            <div class=" row main-alert" id="alert-open" style=" display:none">    
+                <div class="row">
+                    <div class="pull-left"> <h4>How to Use Job Searching Engine</h4></div>  
+                    <div class="pull-right" id="alert-close" > <i class="zmdi zmdi-close-circle"></i></div>  
+                    <div class=" clearfix"></div>    
+                </div>
+                <p>By default you are seeing all the jobs posted on the platform, each with a unique Matching Percentage with your profile. It is always advisable that you have a complete profile so that the system can help you identify the perfect jobs for you. If you change the switch to 'Suggested Jobs', the system will provide you with all the jobs with a Matching Percentage of 50% and above.</p>
+            </div>
+            <!--TITTLE-->
+            <div class="row block career">
+                <div class="block-title">
+                    <h2> Your Future Career Starts Here </h2>
+                    <a href="#"> <span class="light" id="alert-click">
+                        <span class="dark padding-0" ><i class="zmdi zmdi-help"></i></span> Help
+                        </span></a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="row future-serch padding-10">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <div class="future-serch-icon"> 
+                            <i class="zmdi zmdi-case"></i>
+                            <input type="text" placeholder="Search Jobs by Job Title " name="">
+                        </div>
+                    </div>
+                    <div class=" block-footer border-none padding-0 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+                        <button class="serch-future"><i class="icon-featured-serch"></i> Search </button>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--SEARCH-->            
+            <!--FEATURED JOBS-->            
+            <div class="row">
+                <div class="row">
+                    <div class="plain-title"><h2> Featured Jobs Matching your Profile</h2> </div>    
+                </div>
+                <div class="featured-jobs bottom-gap">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="featured-box">
+                                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding-20-0 mob-bdr">
+                                        <div class="feturd-compny"><i class="zmdi zmdi-city-alt"></i> </div>
+                                        <div class="feturd-compny-dtls">
+                                            <div class="txt-white">Business Development Manager</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-city-alt"></i> Catalyst LLC</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-pin"></i> United Arab Emirates</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-chart-donut"></i> Staffing and Recruiting</div>
+                                        </div>
+                                        <div class="feturd-matching-percentage">
+                                            <div class="prg-cercle">
+                                                <div class=" c100 p86 green small">
+                                                    <span>86%</span>
+                                                    <div class="slice">
+                                                        <div class="bar"></div>
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="percenge-txt">Matching Percentage</div>
+                                        </div>
+                                        <div class=" clearfix"></div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-xs-6 matching-applicants padding-20-0">
+                                                <i class="icon-applicants"></i>
+                                                <div class="applicants-numbers">1,375</div>
+                                                <div class="applicants-txt">No. of Applicants</div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-xs-6 probability padding-20-0">
+                                                <i class="icon-probability-success"></i>
+                                                <div class="applicants-numbers">9.7%</div>
+                                                <div class="applicants-txt">Probability of Success</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="featured-box">
+                                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding-20-0 mob-bdr">
+                                        <div class="feturd-compny">
+                                            <img src="images/company-logo-1.png">
+                                        </div>
+                                        <div class="feturd-compny-dtls">
+                                            <div class="txt-white">Business Development Manager</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-city-alt"></i> Catalyst LLC</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-pin"></i> United Arab Emirates</div>
+                                            <div class="cmpny-txt"><i class="zmdi zmdi-chart-donut"></i> Staffing and Recruiting</div>
+                                        </div>
+                                        <div class="feturd-matching-percentage">
+                                            <div class="prg-cercle">
+                                                <div class=" c100 p86 green small">
+                                                    <span>86%</span>
+                                                    <div class="slice">
+                                                        <div class="bar"></div>
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="percenge-txt">Matching Percentage</div>
+                                        </div>
+                                        <div class=" clearfix"></div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-xs-6 matching-applicants padding-20-0">
+                                                <i class="icon-applicants"></i>
+                                                <div class="applicants-numbers">1,375</div>
+                                                <div class="applicants-txt">No. of Applicants</div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-xs-6 probability padding-20-0">
+                                                <i class="icon-probability-success"></i>
+                                                <div class="applicants-numbers">9.7%</div>
+                                                <div class="applicants-txt">Probability of Success</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="zmdi"><i class="zmdi zmdi-chevron-left"></i></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="zmdi"><i class="zmdi zmdi-chevron-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--FILTER-->            
+            <div class="row block filter-jobs bottom-gap">
+                <div class="row block-title-2 padding-20-10">
+                    <div class="col-lg-6 col-sm-6 col-xs-12"><h2> 674 <span class="light" >Matching Jobs</span> </h2></div>
+                    <div class="col-lg-6 col-sm-6  col-xs-12 drop-jobs">
+                        <div class="sort-drop" >
+                            <div class="click-dropdown-sort">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div class="btn-group btn-input clearfix">
+                                            <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+                                                <span data-bind="label">Month Posted</span>&nbsp;<span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <div class="arow-dropdown zmdi zmdi-caret-up"></div>
+                                                <li><a href="#">Probability of Success</a></li>
+                                                <li><a href="#">Month Posted</a></li>
+                                                <li><a href="#">Year Posted</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <span class="srt-feture">Sort By:</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+<!--SEARCH TAGS-->
+    
+
+                <!--ALL LISTING-->  
+         <div class="row empty-min3">                
+  
+                    <div class="empty-prf "> 
+                        <i class="icon-empty-job"></i>    
+                        <h5>No Matching Jobs Available</h5>    
+                    </div>
+                    
+                </div> 
+                
+                
+            </div>
+        </div>
+
+        <!-- Filter -->     
+        <div class="row" id="filter">
+            <div class="filter-mobile">
+                <a href="filter.html"> <button>Filter </button></a>
+            </div> 
+        </div> 
+    </div>
+</div>          
+ 
+<!---------------------- Suggested Jobs ---------------------------> 
+<div role="tabpanel" class="tab-pane" id="suggested-jobs">
+    <div class="commen-container">
+        <!--FILTER-->     
+        <div class="col-lg-12">
+            <div class="block filter-jobs bottom-gap">
+                <div class="row block-title-2 padding-20-10">
+                    <div class="col-lg-6 col-sm-6 col-xs-12"><h2>Suggested Jobs</h2></div>
+                 
+                </div>
+
+                <!--Suggested Jobs-->  
+                <div class="row empty-min2">                
+  
+                    <div class="empty-prf "> 
+                        <i class="icon-empty-suggested"></i>    
+                        <h5>No Suggested Jobs Available</h5>    
+                    </div>
+                    
+                </div> 
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!----------------------  My Jobs ---------------------------> 
+
+<div role="tabpanel" class="tab-pane" id="my-jobs">
+    <div class="commen-container">
+        <!--My Jobs-->     
+        <div class="col-lg-12 my-job">
+            <div class="block filter-jobs bottom-gap">
+                <div class="row block-title-2 padding-20-10">
+                    <div class="col-lg-6 col-sm-6 col-xs-12"><h2>My Jobs</h2></div>
+                
+                </div>
+                  <div class="row empty-min2">                
+  
+                    <div class="empty-prf "> 
+                        <i class="icon-empty-myjob"></i>    
+                        <h5>No Job Applayed</h5>    
+                    </div>
+                    
+                </div> 
+          
+            </div>
+        </div>
+    </div>   
+</div>
+
+<!----------------------  Saved Searches ---------------------------> 
+<div role="tabpanel" class="tab-pane" id="saved-searches">
+    <div class="commen-container">
+        <!--Saved Serches-->     
+        <div class="col-lg-12 saved-searches clicks">
+            <div class="block bottom-gap">
+                <div class="row block-title-2 padding-20-10">
+                    <div class="col-lg-6 col-sm-6 col-xs-6"><h2>Saved&nbsp;Searches</h2></div>
+         
+                </div>
+
+                <!--Application Tracking-->  
+
+          <div class="row empty-min2">                
+  
+                    <div class="empty-prf "> 
+                        <i class="icon-empty-saved-serch"></i>    
+                        <h5>No Saved Search Available</h5>    
+                    </div>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>      
+</div>
+    
+<!----------------------  Saved Jobs ---------------------------> 
+    
+<div role="tabpanel" class="tab-pane" id="saved-jobs">
+    <div class="commen-container">
+        <!--Saved Jobs-->     
+        <div class="col-lg-12 saved-jobs">
+            <div class="block filter-jobs bottom-gap">
+                <div class="row block-title-2  saved-searches padding-20">
+<div class="left"><h2>Saved Jobs</h2></div>
+                 
+                    
+                    
+</div>
+
+                <!--Saved Jobs items-->  
+
+                <div class="row empty-min2">                
+  
+                    <div class="empty-prf "> 
+                        <i class="icon-empty-saved-jobs"></i>    
+                        <h5>No Saved Jobs Applayed </h5>    
+                    </div>
+                    
+                </div>                
+
+
+            </div>
+        </div>
+    </div>
+</div>        
+    
+    
+    <div class="clearfix"></div>   
+</div>         
+        
+
+<!---------------------------------- footer ------------------------------------->   
+<footer>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+        <hr>
+        <div class="footer-links left-center">
+            <a href="#" class="padding-left">About BLOOVO</a>
+            <a href="#">Company Director</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Blog</a>
+            <a href="#" class="no-border">Contact Us</a>
+        </div>
+        <div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+        <div class="clr"></div> 
+    </div>   
+</footer> 
+
+<!-------------------------------- end footer -------------------------------------->          
+
+
+<!---------------------- Logout POPUP Content ---------------------------> 
+<!-- Save Search -->         
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade save-search " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Save Search</H2>
+                        <div class="full-box"> <input type="text" name="phn" placeholder="Nodes Technology"></div>
+                        <div class="edit">
+                            <div class="btn-group">
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Select Country <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Al Ain </a></li>
+                                    <li><a href="#">Dubai </a></li>
+                                    <li><a href="#">Rasalkyma </a></li>
+                                    <li><a href="#">Soudi Arabia </a></li>
+                                    <li><a href="#">Rasalkyma </a></li>
+                                    <li><a href="#">Dubai </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pop-button">
+                            <button type="button" class="btn postive">Yes</button>
+                            <button type="button" class="btn negative">No</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+
+<!--Edit Saved Search-->         
+
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade edit-saved-search " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Edit Saved Search</H2>
+                        <div class="full-box"> <input type="text" name="phn" placeholder="Business Development Manager"></div>
+                        <div class="edit">
+                            <div class="btn-group">
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Weekly<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Weekly</a></li>
+                                    <li><a href="#">Montly </a></li>
+                                    <li><a href="#">Yearly </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pop-button">
+                            <button type="button" class="btn postive">Save</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>        
+
+<!--Delete Saved Search Pop up-->       
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade delete-saved-search" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Delete Saved Search</H2>
+                        <h4><span class="navy"> Are you sure to delete?  </span> </h4>
+                        <div class="pop-button">
+                            <button type="button" class="btn postive">Save</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>    
+
+<!--  Accept Interview Pop up -->
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade accept-interview" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Accept Interview</H2>
+                        <h4><span class="light"> Are you sure you want to accept this interview? </span> </h4>
+                        <div class="pop-button">
+                            <button type="button" class="btn postive">Save</button>
+                            <button type="button" class="btn negative">Cancel</button>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+        </div>   
+    </div>
+</div>
+
+<!--------------------------- Commen jquery ------------------------------->	 
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+<!--------------------------- Menu jquery ------------------------------->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!--------------------- Tool Tip --------------------->    
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+    
+<!--------------------- Folow following script --------------------->    
+    
+<script>    
+    $('button').click(function(){
+        var $this = $(this);
+        $this.toggleClass('following')
+        if($this.is('.following')){
+            $this.addClass('wait');
+        }
+    }).on('mouseleave',function(){
+        $(this).removeClass('wait');
+    })
+</script> 
+    
+<!--------------------- Dropdown script --------------------->  
+    
+ <script>                              
+$(document).ready(function() {
+    $('.dropdown-menu li a').click(function(event) {
+        var option = $(event.target).text();
+        $(event.target).parents('.btn-group').find('.dropdown-toggle').html(option+' <span class="caret"></span>');
+    });
+});
+</script>
+    
+
+<!--------------------- Advance Filter script --------------------->   
+    
+ <script>
+$(document).ready(function(){
+    $(".filter-add").click(function(){
+        $(".filter-open").toggle();
+         $(".filter-add").hide();
+    });
+   
+});
+</script> 
+    
+<!--------------------- Alert script --------------------->   
+    
+<script>
+$(document).ready(function(){
+    $("#alert-close").click(function(){
+        $("#alert-open").hide();
+    });
+    $("#alert-click").click(function(){
+        $("#alert-open").show();
+    });
+});
+</script>
+    
+    
+ <script>
+$(document).ready(function(){
+    $("#feedback-applied-close").click(function(){
+        $("#feedback-applied-open").hide();
+    });
+    $("#feedback-applied-click").click(function(){
+        $("#feedback-applied-open").show();
+    });
+});
+</script>   
+    
+    
+ <script>
+$(document).ready(function(){
+    $("#feedback-reviewed-close").click(function(){
+        $("#feedback-reviewed-open").hide();
+    });
+    $("#feedback-reviewed-click").click(function(){
+        $("#feedback-reviewed-open").show();
+    });
+});
+</script> 
+    
+ <script>
+$(document).ready(function(){
+    $("#feedback-shortlisted-close").click(function(){
+        $("#feedback-shortlisted-open").hide();
+    });
+    $("#feedback-shortlisted-click").click(function(){
+        $("#feedback-shortlisted-open").show();
+    });
+});
+</script> 
+        
+ <script>
+$(document).ready(function(){
+    $("#feedback-successful-close").click(function(){
+        $("#feedback-successful-open").hide();
+    });
+    $("#feedback-successful-click").click(function(){
+        $("#feedback-successful-open").show();
+    });
+});
+</script> 
+    
+ <script>
+$(document).ready(function(){
+    $("#feedback-unsuccessful-close").click(function(){
+        $("#feedback-unsuccessful-open").hide();
+    });
+    $("#feedback-unsuccessful-click").click(function(){
+        $("#feedback-unsuccessful-open").show();
+    });
+});
+</script> 
+    
+ <script>
+$(document).ready(function(){
+    $("#feedback-interview-close").click(function(){
+        $("#feedback-interview-open").hide();
+    });
+    $("#feedback-interview-click").click(function(){
+        $("#feedback-interview-open").show();
+    });
+});
+</script> 
+    
+<!--------------------- Matching Jobs tag script ---------------------> 
+    
+<script>
+$(document).ready(function(){
+    $("#tage-close1").click(function(){
+        $("#tage-hide1").hide();
+    });
+
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#tage-close2").click(function(){
+        $("#tage-hide2").hide();
+    });
+
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#tage-close3").click(function(){
+        $("#tage-hide3").hide();
+    });
+
+});
+</script>
+    
+<!--------------------- carousel script --------------------->  
+
+<script>
+$('.carousel').carousel({
+    interval:false
+});     
+</script> 
+    
+<!--------------------- Filter script --------------------->  
+    
+<script type="text/javascript" >
+
+	$(document).ready(function(){
+		$(document).scroll(function(e){			
+			var curScroll = $(window).scrollTop();
+			var docHeight = $(document).height();
+			var winHeight = $(window).height();			
+			if(curScroll >= (docHeight - winHeight)*0.02)
+			{
+				
+				$('#filter').fadeIn().show();
+			}
+			else
+			{
+				
+				$('#filter').fadeOut().hide();
+			}
+                
+    	});
+	});
+
+</script>	
+    
+<!--------------------- Date Picker Progress script --------------------->      
+
+    <script src="js/date-picker.js"></script>
+    <script>
+
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+
+    </script> 	 
+    <script>
+
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker1'),
+        firstDay: 1,
+        minDate: new Date(),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000,2020]
+    });
+
+    </script> 
+    
+    
+   
+</body>
+</html>

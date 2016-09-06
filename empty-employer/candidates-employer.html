@@ -1,0 +1,709 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+
+</head>
+    
+
+    
+<body>
+
+<!----------------------Menu----------------------------->   
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+<div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile-employer.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="zmdi zmdi-city-alt"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard-employer.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs-employer.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="candidates-employer.html" data-toggle="tooltip" data-placement="right" title="Candidates"><i class="icon-candidate"></i><span> Candidates</span></a></li>
+                    <li><a href="blog-employer.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="consulting-employer.html" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings-employer.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</div> 
+
+<!-------------------- Content Area ------------------>
+<div class="bloovo-container">
+    <div class="side-body">
+<!--------------------------------- header ------------------------------------->	     
+ <div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+                <div class="dropdown">
+                  <button class="dropbtn"><div class="profile-picture bloovo-right "><img src="images/profile-employer.png"></div>
+                      <div class="profile-name bloovo-right">Ways Infotech LLC</div></button>
+
+                    <div class="dropdown-content">
+                      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+
+                        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+                        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+                        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+
+                  </div>
+                </div>
+
+                <div class=" clr"></div>
+            </div>    
+        </div>
+
+
+<!-------- Contents --------->        
+<!--------------------------- JobContent ---------------------------------->           
+     
+        
+<div class="tab-content job-bloovo">
+<!--------------------------- All Jobs ---------------------------------->       
+
+<div class="commen-container-less">
+        
+<!--candidates serches-->
+        
+<div class="col-lg-12 candidates">
+    <div class="block bottom-gap">
+        <div class="row block-title border-none ">
+            <h2>Search for Your Prefered Candidates</h2>
+        </div> 
+        
+        <div class="row clicks padding-10-10">
+        <div class="col-lg-5">
+            
+            
+<div class="radio radio-primary">
+<input id="radio2" type="radio" name="radio4" value="option1">
+<label for="radio2">
+<span>All words</span>
+</label>  
+</div>
+<div class="radio radio-primary">
+<input id="radio3" type="radio" name="radio4" value="option1">
+<label for="radio3">
+<span>Any word</span>
+</label>  
+</div>
+<div class="radio radio-primary">
+<input id="radio4" type="radio" name="radio4" value="option1">
+<label for="radio4">
+<span>Exact phrase</span>
+</label>  
+</div>            
+            
+            
+            </div>
+<div class="col-lg-7">
+<div class="full-box">
+<input type="text" placeholder="Serach Candidates Name / Skills	" name="phn">  
+<a href="#"  class="serch-box"><i class="icon-featured-serch"></i> </a>
+</div>
+</div> 
+   
+        </div>
+        
+        
+<div class="block-container edit padding-20">
+
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="search-candidates padding-left">
+<div class="candidate-txt">Job Attributes</div>  
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Country<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">City<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Job Title<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>    
+ 
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Functional Area<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div> 
+    
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Sector<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>    
+    
+</div>       
+</div>    
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="search-candidates">
+<div class="candidate-txt">Personal Attributes</div>  
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Years of Experience<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Highest Education<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Current Salary<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>    
+ 
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Expected Salary<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+    
+</div>       
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="search-candidates ">
+<div class="candidate-txt">Demographic Attributes</div>  
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Nationality<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Age<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Language<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>    
+ 
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Gender<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+    
+</div>       
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-none">
+<div class="search-candidates padding-right">
+<div class="candidate-txt">Other Attributes</div>  
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Notice Period<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Last Active<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Visa Status<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>    
+ 
+<div class="full-box">
+<div class="btn-group">
+<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Job Type<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+<li><a href="#">Rasalkyma </a></li>
+<li><a href="#">Soudi Arabia </a></li>
+<li><a href="#">Al Ain </a></li>
+<li><a href="#">Dubai </a></li>
+</ul>
+</div>
+</div>     
+    
+</div>       
+</div>
+<div class="clearfix"></div>    
+</div>
+
+<!--candidates  buttton-->
+        <div class="row block-footer">
+            <a href="search-result-employer.html"><button>Search</button></a>
+            <span class="cancel">
+                <button>
+                    Reset
+                </button>
+            </span>
+            
+
+        </div>
+
+
+    </div>
+</div>
+      
+
+
+
+</div>
+        
+</div>         
+        
+   
+
+        
+        
+        
+
+<!---------------------------------- footer ------------------------------------->   
+<footer>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">About BLOOVO</a>
+        <a href="#">Company Director</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Blog</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+<!-------------------------------- end footer -------------------------------------->          
+
+<!---------------------- Logout POPUP Content --------------------------->     
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade save-search " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Save Search</H2>
+                        
+                        <div class="full-box"> <input type="text" name="phn" placeholder="Nodes Technology"></div>
+                        <div class="edit">
+                                  <div class="btn-group">
+                                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Select Country <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Al Ain </a></li>
+                                                <li><a href="#">Dubai </a></li>
+                                                <li><a href="#">Rasalkyma </a></li>
+                                                <li><a href="#">Soudi Arabia </a></li>
+                                                <li><a href="#">Rasalkyma </a></li>
+                                                <li><a href="#">Dubai </a></li>
+                              
+                                            </ul>
+                                        </div>
+                        </div>
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Yes</button>
+                            <button type="button" class="btn negative">No</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+        
+</div>
+
+
+
+
+</div>
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+<!--------------------------- Commen jquery ------------------------------->	 
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+
+    
+  
+<!--------------------------- Menu jquery ------------------------------->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!--------------------- Tool Tip --------------------->    
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+    
+    
+<!--------------------- Folow following script --------------------->       
+<script>    
+    $('button').click(function(){
+        var $this = $(this);
+        $this.toggleClass('following')
+        if($this.is('.following')){
+            $this.addClass('wait');
+        }
+    }).on('mouseleave',function(){
+        $(this).removeClass('wait');
+    })
+</script> 
+    
+
+
+ <!--------------------- Dropdown script --------------------->  
+ <script>                              
+$(document).ready(function() {
+    $('.dropdown-menu li a').click(function(event) {
+        var option = $(event.target).text();
+        $(event.target).parents('.btn-group').find('.dropdown-toggle').html(option+' <span class="caret"></span>');
+    });
+});
+</script>
+    
+
+
+
+<!--------------------- Advance Filter script --------------------->     
+ <script>
+$(document).ready(function(){
+    $(".filter-add").click(function(){
+        $(".filter-open").toggle();
+         $(".filter-add").hide();
+    });
+   
+});
+</script> 
+    
+    
+    
+<!--------------------- Alert script --------------------->   
+    
+<script>
+$(document).ready(function(){
+    $("#alert-close").click(function(){
+        $("#alert-open").hide();
+    });
+    $("#alert-click").click(function(){
+        $("#alert-open").show();
+    });
+});
+</script>
+    
+    
+    
+ <!--------------------- carousel script --------------------->        
+<script>
+$('.carousel').carousel({
+    interval:false
+});     
+</script> 
+    
+<!--------------------- Filter script --------------------->  
+    
+<script type="text/javascript" >
+
+	$(document).ready(function(){
+		$(document).scroll(function(e){			
+			var curScroll = $(window).scrollTop();
+			var docHeight = $(document).height();
+			var winHeight = $(window).height();			
+			if(curScroll >= (docHeight - winHeight)*0.02)
+			{
+				
+				$('#filter').fadeIn().show();
+			}
+			else
+			{
+				
+				$('#filter').fadeOut().hide();
+			}
+                
+    	});
+	});
+
+</script>	
+    
+    
+   
+</body>
+</html>
