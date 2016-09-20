@@ -57,17 +57,11 @@
 .icon-empty-companycover:before {
   content: "\e967";
 }
-.icon-empty-follower:before {
-  content: "\e968";
-}
 .icon-empty-status:before {
   content: "\e969";
 }
 .icon-empty-brand-follow:before {
   content: "\e96a";
-}
-.icon-empty-candidates:before {
-  content: "\e96b";
 }
 .icon-empty-tags:before {
   content: "\e96c";
@@ -230,6 +224,9 @@
 }
 .icon-hangout:before {
   content: "\e92e";
+}
+.icon-empty-galery:before {
+  content: "\e982";
 }
 .icon-candidate:before {
   content: "\e935";
@@ -407,6 +404,12 @@
 }
 .icon-thumbs-up:before {
   content: "\e906";
+}
+.icon-empty-follower:before {
+  content: "\e968";
+}
+.icon-empty-candidates:before {
+  content: "\e96b";
 }
 .icon-Advance-tracking:before {
   content: "\e95d";

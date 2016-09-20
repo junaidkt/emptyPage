@@ -767,7 +767,15 @@ button.following:not(.wait):hover .msg-unfollow{
             padding-left:-20px}
         input{ width: auto!important}
     }
+   
 }
+.skill-add{ padding: 20px 30px; 
+     button{ width: 100px; float: right}
+    .skill-category-radio{margin-bottom:-30px;}
+
+
+}
+
 
 // tag-section
 .tag-secton{
@@ -4243,8 +4251,8 @@ header{ position: absolute; z-index: 999; width:100%;
 .empty-min2{ min-height: 600px;
     .empty-prf{ padding-top:250px; }
 }
-.empty-min3{ min-height:400px;
-    .empty-prf{ padding-top:150px; }
+.empty-min3{ min-height:406px;
+    .empty-prf{ padding-top:170px; }
 }
 .empty-min4{ min-height: 230px;
     .empty-prf{ padding-top:70px; }
@@ -4257,9 +4265,25 @@ header{ position: absolute; z-index: 999; width:100%;
     .empty-prf{ padding-top:120px;  }
 }
 
-.empty-clr{ background:#f0f3f6}
+.empty-min7{ min-height: 560px;
+    .empty-prf{ padding-top:230px; }
+}
+
+
+.empty-clr{ background:#f0f3f6!important}
 .empty-txt{ color:#d1d1d1}
 .empty-prf{ text-align: center; padding-top:30px;   
     i{ color:$Progress; font-size:$font-50; }
     h5{ font-size:16px;color:$Progress;    }
 }
+
+//Apply resume
+#apply-job{
+    .col-lg-6{ border-right: solid 1px $grey-border; padding-left:15px!important  }
+    .apply-res{ position: relative; margin-bottom: 10px;
+    .resume-box{ height: 80px; width: 80px; line-height: 80px; color:$navy-dark; background:$blue-light; text-align: center; font-size:$font-24  }
+    .resume-txt{ left: 100px; position: absolute; top: 20px;  }
+}
+}
+
+

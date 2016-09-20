@@ -1,0 +1,545 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!-- mainstyle -->	
+<link href="stylesheets/main.css" rel="stylesheet">	
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.css" rel="stylesheet">
+<!-- Material Design -->  
+<link href="fonts/material/material-design.css" rel="stylesheet">
+ <!-- helvertica font -->     
+<link href="fonts/helvertica/stylesheet.css" rel="stylesheet">
+<!-- bloovo icon font --> 
+<link href="fonts/bloovo-font/bloovo-fonts.css" rel="stylesheet">
+    
+
+
+    
+
+
+	
+
+</head>
+    
+
+    
+<body>
+
+
+   
+    
+    
+
+
+ <!----------------------Menu----------------------------->   
+<div class="main-menu">
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <div class="brand-name-wrapper">
+                        <a class="" href="#">
+                            <img src="images/bloovo-logo.svg" width="62px;">
+                        </a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="zmdi zmdi-menu"></i> 
+                        </button>
+                        <div class="search-mobile hide-mobile bloovo-left">
+                            <input type="text" placeholder="Search " name="">
+                            <i class="zmdi zmdi-search"></i>
+                        </div>
+                        <div class="log-out-mobile hide-mobile bloovo-right"> 
+                            <a href="#" data-toggle="modal" data-target=".logout"> <i class="zmdi zmdi-power"></i> </a>
+                        </div>    
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-menu-container">
+          		 <ul class="nav navbar-nav">
+                    <li><a href="profile.html" data-toggle="tooltip" data-placement="right" title="Profile"><i class="icon-profile"></i><span> Profile</span></a></li>
+                    <li><a href="dashboard.html" data-toggle="tooltip" data-placement="right" title="Dashboard"><i class="icon-dashboard"></i><span> Dashboard</span></a></li>
+                    <li><a href="jobs.html" data-toggle="tooltip" data-placement="right" title="Jobs"><i class="zmdi zmdi-case"></i><span> Jobs</span></a></li>
+                    <li><a href="companies.html" data-toggle="tooltip" data-placement="right" title="Companies"><i class="zmdi zmdi-city-alt"></i><span> Companies</span></a></li>
+                    <li><a href="blog.html" data-toggle="tooltip" data-placement="right" title="Blog"><i class="zmdi zmdi-file-text"></i><span> Blog</span></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Consulting"><i class="icon-incandescent"></i><span> Consulting</span></a></li>
+                    <li><a href="settings.html" data-toggle="tooltip" data-placement="right" title="Settings"><i class="zmdi zmdi-settings"></i><span> Settings</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div> 
+
+<!-------------------- Content Area ------------------>
+<div class="bloovo-container">
+    <div class="side-body">
+<!--------------------------------- header ------------------------------------->	     
+        <div class="bloovo-header">
+            <div class="col-lg-5 col-md-6 col-sm-6 bloovo-left"> 
+                <div class="search">
+                    <input type="text" placeholder="Search for Jobs or Companies " name="">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+            </div>   
+            <div class="bloovo-right click-dropdown">
+                
+  
+<div class="dropdown">
+  <button class="dropbtn"><div class="profile-picture bloovo-right "></div>
+      <div class="profile-name bloovo-right">Alexander Paul</div></button>
+    
+    <div class="dropdown-content">
+      <div class="arow-dropdown"><i class="zmdi zmdi-caret-up"></i></div>
+  
+        <a href="#"><i class="zmdi zmdi-settings"></i> Accont Settings</a>
+        <a href="#"><i class="zmdi zmdi-accounts-add"></i> Invite Friends</a>
+        <a href="#"><i class="zmdi zmdi-power"></i> Logout</a>
+      
+  </div>
+</div>
+
+                
+                
+                
+                <div class=" clr"></div>
+            </div>    
+        </div>
+<!-------- Contents --------->        
+<!--------------------------- Profile Content ---------------------------------->           
+<div class=" main-tab">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#all-jobs" aria-controls="all-jobs" role="tab" data-toggle="tab"><i class="zmdi zmdi-case"></i> All-jobs
+            </a>
+        </li>
+        <li role="presentation"><a href="#suggested-jobs" aria-controls="suggested-jobs" role="tab" data-toggle="tab"><i class="icon-suggestedjobs"></i>
+            Suggested Jobs
+            </a>
+        </li>
+        
+        <li role="presentation"><a href="#my-jobs" aria-controls="my-jobs" role="tab" data-toggle="tab"><i class="icon-my-jobs"></i>
+            My Jobs
+            </a>
+        </li>
+        <li role="presentation"><a href="#saved-searches" aria-controls="saved-searches" role="tab" data-toggle="tab"><i class="icon-saved-searches"></i>
+            Saved Searches
+            </a>
+        </li>
+        <li role="presentation"><a href="#saved-jobs" aria-controls="saved-jobs" role="tab" data-toggle="tab"><i class="icon-saved-jobs"></i>
+           Saved Jobs
+            </a>
+        </li>
+    </ul>
+</div>     
+        
+<div class="tab-content">
+         
+ 
+        
+    
+    
+<!---------------------- Apply Jobs ---------------------------> 
+
+    <div role="tabpanel" class="tab-pane active" id="apply-job">
+        <div class="commen-container invite clicks" id="my-profile">
+        
+            <div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="block bottom-gap">
+                <div class="block-title-2">
+                    
+                <div class="left">
+                    <h2>Apply Job - <span class="light">Business Development Manager</span></h2>
+                    
+                    </div> 
+                <div class="right"><a href="jobs.html"> <button> Back </button></a></div>
+                    <div class="clearfix"></div>
+                    
+                </div>
+                    
+<div class="block-contant ">
+    
+ 
+
+<div class="row">
+    
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<h4 class="navy padding-btm-10" ><b>Chose Your Resume</b></h4>  
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option1" id="radio1" name="radio2">
+            <label for="radio1">
+                <span>Main CV 1</span>
+            </label>
+        </div>
+    </div>    
+</div>  
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option2" id="radio2" name="radio2">
+            <label for="radio2">
+                <span>Business Manager</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option3" id="radio3" name="radio2">
+            <label for="radio3">
+                <span>UX Designer</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option11" id="radio11" name="radio2">
+            <label for="radio11">
+                <span>UX Designer</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+    
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option12" id="radio12" name="radio2">
+            <label for="radio12">
+                <span>UX Designer</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+ 
+    
+ 
+</div>    
+<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 border-none ">
+<h4 class="navy padding-btm-10"><b>Chose Your Cover Letter</b></h4>   
+
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option4" id="radio4" name="radio3">
+            <label for="radio4">
+                <span>Cover Letter 1</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option5" id="radio5" name="radio3">
+            <label for="radio5">
+                <span>Cover Letter 2</span>
+            </label>
+        </div>
+    </div>    
+</div> 
+
+     
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option6" id="radio6" name="radio3">
+            <label for="radio6">
+                <span>Cover Letter 3</span>
+            </label>
+        </div>
+    </div>    
+</div>   
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option7" id="radio7" name="radio3">
+            <label for="radio7">
+                <span>Cover Letter 4</span>
+            </label>
+        </div>
+    </div>    
+</div>  
+    
+    
+<div class="apply-res">
+    <div class="resume-box"><i class="zmdi zmdi-file-text"></i></div> 
+    <div class="resume-txt">
+        <div class="radio radio-primary">
+            <input type="radio" value="option8" id="radio8" name="radio3">
+            <label for="radio8">
+                <span>Cover Letter 5</span>
+            </label>
+        </div>
+    </div>    
+</div>  
+    
+</div>
+  
+    
+    
+</div>    
+    
+    
+    
+</div>   
+                    
+<div class="block-footer"> 
+                    
+<button>
+Submit
+</button>
+<span class="cancel padding-0">
+<button>
+Cancel
+</button>
+</span>
+</div>        
+                    
+                    
+    </div>                    
+                    
+                 
+                 
+                    
+                </div>
+                
+                
+
+                
+                </div>
+                
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 information">
+            
+                <div class="block bottom-gap">
+                <div class="profile-status">
+                <div class="profile-status-header">
+                <h3>Alexander</h3> 
+                <h4>Your Profile is Not Complete</h4>
+                    
+                </div> 
+                    <div class="block-contant">
+                        
+                        <div class="profile-percentage">
+                          <div class="prg-cercle">
+                              <div class=" c100 p92 green">
+                                  <span>92%</span>
+                                  <div class="slice">
+                                      <div class="bar"></div>
+                                      <div class="fill"></div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+
+                        
+
+                        
+                    <div class="block-title-2 border-none">
+                        <button>Update Profile</button>
+                    </div>
+                        
+                        
+                    <div class="dark">Get Noticed!</div>
+                        
+                    <p class="big-18">
+                    <span class="light">A Complete Profile Gives You a </span><span class="dark">Better 
+                    Employer Reach</span><span class="light"> & </span> <span class="dark"> a Higher Chance of</span>
+                    <span class="light">Getting the</span> <span class="dark"> Perfect Job Match.</span>
+                    </p>    
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                </div>
+                                          
+ <div class="advertisment">
+<div class="advt5 bottom-gap"><img src="images/advertisement/advt-5.png" width="100%" > </div>     
+  
+                        
+</div>
+            
+            </div>
+        
+
+                
+
+                
+            </div>
+        
+        </div>    
+        </div> 
+        
+            <!---------------------------------- footer ------------------------------------->   
+<footer>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">    
+    <hr>
+    <div class="footer-links left-center">
+        <a href="#" class="padding-left">About BLOOVO</a>
+        <a href="#">Company Director</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Blog</a>
+        <a href="#" class="no-border">Contact Us</a>
+</div>
+<div class="copyright right-center">Copyright © 2016 BLOOVO, All rights reserved</div>    
+<div class="clr"></div> 
+</div>   
+
+</footer> 
+<!-------------------------------- end footer -------------------------------------->          
+
+        </div>   
+    
+
+    
+        </div>    
+
+
+
+<!---------------------- Logout POPUP Content --------------------------->     
+<div class="popup">
+    <div class="logout-pop">   
+        <div class="modal fade logout" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <button class="close following" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+                        <H2>Logout</H2>
+                        <h4>Are you sure you want to Logout?</h4>
+
+                        <div class="pop-button">
+
+                            <button type="button" class="btn postive">Yes</button>
+                            <button type="button" class="btn negative">No</button>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+        
+        
+</div>
+
+
+
+
+</div>
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+<!--------------------------- Commen jquery ------------------------------->	 
+    
+<script type="text/javascript" src="js/jquery.js"></script>   
+<script src="js/bootstrap.js"></script> 
+<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+    
+
+    
+  
+<!--------------------------- Menu jquery ------------------------------->	     
+    
+<script>
+$(function () {
+    $('.navbar-toggle').click(function () {
+        $('.navbar-nav').toggleClass('slide-in');
+        $('.side-body').toggleClass('body-slide-in');
+        $('#search').removeClass('in').addClass('collapse').slideUp(200);
+    });
+   
+
+   $('#search-trigger').click(function () {
+        $('.navbar-nav').removeClass('slide-in');
+        $('.side-body').removeClass('body-slide-in');
+
+    });
+});
+</script>    
+
+<!--------------------- Tool Tip --------------------->    
+    
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>       
+    
+    
+<!--------------------- Folow following script --------------------->       
+<script>    
+    $('button').click(function(){
+        var $this = $(this);
+        $this.toggleClass('following')
+        if($this.is('.following')){
+            $this.addClass('wait');
+        }
+    }).on('mouseleave',function(){
+        $(this).removeClass('wait');
+    })
+</script> 
+    
+
+
+ <!--------------------- Dropdown script --------------------->  
+ <script>                              
+$(document).ready(function() {
+    $('.dropdown-menu li a').click(function(event) {
+        var option = $(event.target).text();
+        $(event.target).parents('.btn-group').find('.dropdown-toggle').html(option+' <span class="caret"></span>');
+    });
+});
+</script>
+    
+
+</body>
+</html>

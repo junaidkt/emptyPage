@@ -1034,6 +1034,10 @@ footer a{ padding: 0px 10px}
  .empty-min6{min-height: 200px;
     .empty-prf{ padding-top:60px;  }
 } 
+    
+    
+   
+    
 }
 
 /*---------------------------------------------------3-------------------------------------------------------*/
@@ -2005,6 +2009,20 @@ footer{
  .empty-min6{min-height: 200px;
     .empty-prf{ padding-top:60px;  }
 } 
+    
+//Apply resume
+#apply-job{
+    .col-lg-6{ border-right:none}
+    .block-footer{
+        button{ width:49%} 
+    }
+   
+    .apply-res{
+    .resume-box{ height: 50px; width: 50px; line-height: 50px;font-size:$font-16  }
+    .resume-txt{ left: 60px;top: 6px;  }
+}
+}     
+
  
 }
 
@@ -2561,7 +2579,7 @@ footer{
     .employers-logo{ width:102px; 
         height:102px; 
         margin-top:-100px;
-        i{ line-height:102px; }
+        i{ line-height:102px; font-size: $font-20 }
     }
 
         .employers-logo-sec{ width:100px; 
@@ -3322,8 +3340,19 @@ footer{
 }
 .eleavator-footer{ padding:20px 0px} 
     
+//Apply resume
+#apply-job{
+    .col-lg-6{ border-right:none}
+    .block-footer{
+        button{ width:49%} 
+    }
+   
+    .apply-res{
+    .resume-box{ height: 50px; width: 50px; line-height: 50px;font-size:$font-16  }
+    .resume-txt{ left: 60px;top: 6px;  }
+}
+}
   
-
     
 //-----  
 }

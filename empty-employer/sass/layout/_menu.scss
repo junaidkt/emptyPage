@@ -94,7 +94,7 @@
     .log-out-mobile{
         a{
             color: #fff; 
-            padding: 14px 20px 0px 6px;}
+            padding: 14px 5px 0px 6px;}
        }
 }
 
@@ -173,10 +173,10 @@
     height: 100%;
 
     background-color:$navy-light;
-   -moz-animation: slideout 230ms forwards;
+    -moz-animation: slideout 230ms forwards;
     -o-animation: slideout 230ms forwards;
     -webkit-animation: slideout 230ms forwards;
-   animation: slideout 230ms forwards;
+    animation: slideout 230ms forwards;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
   }
