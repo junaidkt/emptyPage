@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.svg" />
+<title>Bloovo</title>
+	
+
+<!--<link href="fonts/material/material-design.css" rel="stylesheet">-->
+
+
+ 
+<style>
+body{ letter-spacing:0.2px; line-height: 1; font-size:16px;font-family:'HelveticaNeue'!important;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+background:#eef1f3; padding: 0px; margin: 0px;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-weight:500; margin: 15px 0px; }
+/*font*/
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('fonts/helvertica/helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('fonts/helvertica/helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/helvertica/HelveticaNeue.woff2') format('woff2'),
+         url('fonts/helvertica/HelveticaNeue.woff') format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+/*icon*/
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/bloovo-font/icomoon.eot?4zmujv');
+    src:url('fonts/bloovo-font/icomoon.eot?4zmujv#iefix') format('embedded-opentype'),
+        url('fonts/bloovo-font/icomoon.ttf?4zmujv') format('truetype'),
+        url('fonts/bloovo-font/icomoon.woff?4zmujv') format('woff'),
+        url('fonts/bloovo-font/icomoon.svg?4zmujv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}    
+.icon-round:before {
+    content: "\e907";
+}  
+.icon-location:before {
+  content: "\e981";
+}
+.icon-company:before {
+  content: "\e983";
+}
+.icon-account:before {
+  content: "\e984";
+}
+.icon-sector:before {
+  content: "\e985";
+} 
+    
+    
+.left{ float: left; }
+.right{ float: right; }
+.light{ color: #7ba1b2}
+.clr{ clear: both }
+.padding-20-0{ padding-top: 20px;}
+.save-pdf{ width: 1240px; margin: 0 auto; background:#fff; position: relative; padding-bottom: 66px;}
+.save-pdf P{ font-size:18px; line-height:26px; }    
+.res-hed{ background:#374b61; padding: 30px; padding-top: 10px;}
+.res-lft{ float: left;}
+.res-lft h1{ color:#fff; margin: 0px; padding: 0px; font-family:'helveticaneuemedium'}
+.res-lft h4{ color:#97aec6; font-size:18px }
+.res-lft .white{ color:#fff}
+.res-lft i{ color:#fff; padding-right:6px;  }
+.res-rgt{ float: right; width:170px; height: 170px; background:#badcfd; margin-top:20px; border-radius:50%; text-align: center; overflow: hidden;}
+.res-rgt i{ color:navy-dark; font-size: 50px; line-height: 170px; }
+.res-rgt img{ width:100%}
+.res-contnt{ padding: 30px; }
+.res-contnt h1{ color:#374b61; border-bottom:solid 1px #e2e2e2; font-size:30px;font-family:'helveticaneuemedium';padding-bottom:10px; margin: 0px;   }
+.res-contnt .cnt-inf .left{ width: 550px;color:#374b61; margin-top: 10px;}
+.res-contnt h5{ font-size:18px; }
+.genearalinfo{  margin-top: 30px;}
+.genearalinfo .ginfo{ border-left: solid 3px #374b61; width:48%; float: left; padding-left: 15px; margin-bottom:30px;}
+.ginfo h3{ margin: 0px; color:#648b9d;font-size:18px; margin-bottom:2px; }
+.ginfo p{ color:#374b61; margin: 0px;}
+.logo-btm{ position: absolute; bottom: 20px; right: 30px; width: 110px; z-index: 999;}
+.logo-btm img{ width:100%}
+.logo-bg{ position: absolute; bottom: 0px; right: 0px; width: 400px;}
+.logo-bg img{ width:100%;opacity: 0.5}
+.uls h4{ color:#374b61;font-size:18px;}
+.uls i{ margin-right:5px; font-size: 18px; }
+.uls .light{ padding-left:25px;}
+.uls .light h4{font-size:18px; color:#648b9d }
+.uls .light h5{font-size:18px; color:#374b61; margin-top: 25px; }
+.uls .light ul,li{ list-style:inside;font-size:18px; color: #648b9d;  padding: 0px; padding-bottom:15px; }
+.uls .navy{ color:#374b61 }
+.ski ul,li{ padding:0px 0px 15px 0px}
+</style>    
+    
+    
+</head>
+ 
+    
+
+
+    
+<body>
+
+   
+
+
+    
+<div class="save-pdf">
+    
+<div class="logo-btm"><img src="images/email-logo.svg"> </div>    
+<div class="logo-bg"><img src="images/resume-bg.svg"> </div>    
+    
+    
+<div class="res-hed">
+    <div class="res-lft">  
+        <h1>Thomas Smith</h1>
+        <h4><i class="icon-account"></i> <span class="white">Business Development Manager</span></h4>
+        <h4><i class="icon-company"></i> BLOOVO Middle East FZ LLC</h4>
+        <h4><i class="icon-sector"></i> IT Services</h4>
+        <h4><i class="icon-location"></i> New York City, USA</h4>
+    
+    </div>   
+    <div class="res-rgt">
+        <!--<i class="icon-profile"></i>-->
+        <img src="images/resume-pdf.jpg">
+    
+    
+    </div> 
+    <div class="clr"></div>
+</div>   
+<div class="res-contnt">
+<div>    
+    
+<h1>Contact Information</h1>   
+<div class="cnt-inf">
+    <div class="left"> 
+    <h5>Email : thomasmiller@gmaildemo123test.com </h5>
+    <h5>Phone : +971 553776176</h5>
+    <h5>Mobile : +971 565868817</h5>
+    
+    </div>
+    <div class="right">  
+    <span class="light">
+        <p>Aramada Tower Building Number 15<br>
+        Abdullah Al Mubarak Al Khaled Street<br>
+        P. O. Box 1234 and Post Code 13103<br>
+        United Arab Emirates Germany  </p>
+    </span>
+    
+    
+    
+    </div>
+    <div class="clr"></div>
+</div>    
+</div>    
+    
+<div>
+<h1>General Information</h1>   
+    
+<div class="genearalinfo">    
+<div class="ginfo">
+<h3>Sector</h3>  
+<p>Industrial Manufacturing</p>
+</div>  
+    
+<div class="ginfo">
+<h3>Functional Area</h3>  
+<p>Corporate Consulting</p>
+</div> 
+    
+<div class="ginfo">
+<h3>Highest Education</h3>  
+<p>Bachelor of Business Management</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Experience Level </h3>  
+<p>Mid-Level</p>
+</div>     
+    
+<div class="ginfo">
+<h3>Years of Experience </h3>  
+<p>3.5  Years </p>
+</div> 
+    
+<div class="ginfo">
+<h3>Current Job Type</h3>  
+<p>Full Time</p>
+</div>     
+
+    
+<div class="ginfo">
+<h3>Current Monthly Salary (USD)</h3>  
+<p>3,000</p>
+</div> 
+    
+<div class="ginfo">
+<h3>Expected Salary Range (USD)</h3>  
+<p>0 - 1,000</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Nationality</h3>  
+<p>United Arab Emirates</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Languages</h3>  
+<p>English, Hindi, Arabic</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Age</h3>  
+<p>26 Years Old</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Gender</h3>  
+<p>Male</p>
+</div> 
+    
+    
+    
+<div class="ginfo">
+<h3>Marital Status</h3>  
+<p>Single</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Visa status</h3>  
+<p>Tourist</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Driving License Issued From</h3>  
+<p>United Arab Emirates</p>
+</div> 
+    
+    
+<div class="ginfo">
+<h3>Notice Period</h3>  
+<p>2 Month</p>
+</div>
+    
+    
+    
+    
+</div>    
+</div>    
+
+    
+    
+<div>
+<h1>Summary</h1> 
+
+<p class="light padding-20-0">MBA in Human Resource, Sales & Marketing graduated from the University of Wales Institute Cardiff,United Kingdom holding more than 6+ years of experience in Recruitment's/Business Development & Sales/Marketing across UK, GCC & INDIA. the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+
+</div>
+    
+    
+    
+    
+</div>
+    
+    
+    
+    
+</div>    
+<br>
+<div class="save-pdf">
+    
+<div class="logo-btm"><img src="images/email-logo.svg"> </div>    
+<div class="logo-bg"><img src="images/resume-bg.svg"> </div>    
+    
+   
+<div class="res-contnt">
+<div>    
+<h1>Work Experience</h1>   
+ 
+<div class="padding-20-0">     
+<div class="uls">
+<h4><i class="icon-round"></i> Codemint Technology</h4>   
+<div class="light">
+    <h4>Business Development Manager</h4>
+    <h4>New York, USA</h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+    <h5>Roles And Responsiblities</h5>
+    <ul>
+        <li>Plan the Space</li>
+        <li>Purchase Furnishings drawing up rough plans simply dummy text of the printing and typesetting industry. Lorem Ipsum has .</li>
+        <li>Developing detailed designs and choosing materials Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    </ul>
+</div>
+</div>    
+<div class="uls">
+<h4><i class="icon-round"></i> Spark LLC</h4>   
+<div class="light">
+    <h4>Business Development Manager</h4>
+    <h4>New York, USA</h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+    <h5>Roles And Responsiblities</h5>
+    <ul>
+        <li>Plan the Space</li>
+        <li>Purchase Furnishings drawing up rough plans simply dummy text of the printing and typesetting industry. Lorem Ipsum has .</li>
+        <li>Developing detailed designs and choosing materials Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    </ul>
+</div>
+</div>    
+</div> 
+</div>   
+    
+    
+<div> 
+<h1>Education</h1>    
+<div class="padding-20-0">      
+<div class="uls">
+<h4><i class="icon-round"></i> York University</h4>   
+<div class="light">
+    <h4>Specialist Diploma in Business & Big Data Analytics</h4>
+    <h4><span class="navy"> Grade: 91%</span></h4>
+    <h4>New York, USA</h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+</div>
+</div>
+<div class="uls">
+<h4><i class="icon-round"></i> York University</h4>   
+<div class="light">
+    <h4>Specialist Diploma in Business & Big Data Analytics</h4>
+    <h4><span class="navy"> Grade: 91%</span></h4>
+    <h4>New York, USA</h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+</div>
+</div>
+</div>    
+</div>  
+    
+    
+<div class="padding-20-0">
+
+<h1>Certificate</h1> 
+<div class="padding-20-0">     
+<div class="uls">
+<h4><i class="icon-round"></i> CFA</h4>   
+<div class="light">
+    <h4>CFA Institute </h4>
+    <h4><span class="navy"> Grade: 91%</span></h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+</div>
+</div>
+<div class="uls">
+<h4><i class="icon-round"></i> CMA</h4>   
+<div class="light">
+    <h4>CFA Institute </h4>
+    <h4><span class="navy"> Grade: 91%</span></h4>
+    <h4>May 2014-Aug 2015 (1 year 4 months)</h4>
+</div>
+</div>
+</div>
+</div> 
+    
+    
+    
+</div>    
+    
+   
+
+    
+    
+    
+</div>
+    
+   
+<br> 
+<div class="save-pdf">
+    
+<div class="logo-btm"><img src="images/email-logo.svg"> </div>    
+<div class="logo-bg"><img src="images/resume-bg.svg"> </div>    
+    
+   
+<div class="res-contnt">
+<div>    
+<h1>Skills</h1>   
+    
+<div class="uls">
+<div class="ski padding-20-0">    
+    <ul>
+        <li>Meeting Sales Goals <span class="navy">(Expert)</span></li>
+        <li>Creativity <span class="navy">(Intermediate)</span></li>
+        <li>Public Speaking <span class="navy">(Expert)</span></li>
+        <li>Digital Marketing <span class="navy">(Beginner )</span></li>
+        <li>Networking <span class="navy">(Expert)</span></li>
+        <li>Information Technology <span class="navy">(Expert)</span></li>
+        <li>Meeting Sales Goals	<span class="navy">(Expert)</span></li>
+        <li>Creativity <span class="navy">(Intermediate)</span></li>
+        <li>Team Management  <span class="navy">(Intermediate)</span></li>
+        <li>Customer Service  <span class="navy">(Expert)</span></li>
+        <li>Talent Acquisition <span class="navy">(Intermediate)</span></li>
+        <li>Team Leadership  <span class="navy">(Beginner )</span></li>
+        <li>Microsoft Office <span class="navy">(Expert)</span></li>
+        <li>Management <span class="navy">(Intermediate)</span></li>
+        <li>Performance Management <span class="navy">(Expert)</span></li>
+        <li>Human Resources <span class="navy">	(Intermediate)</span></li>
+        <li>Business Development <span class="navy">(Beginner)</span></li>
+        <li>Teamwork  <span class="navy">(Expert)</span></li>
+        
+        
+    </ul>
+</div>
+</div>    
+    
+  
+</div>    
+    
+   
+
+    
+    
+    
+</div>
+    
+    
+    
+    
+</div>       
+    
+    
+</body>
+</html>
