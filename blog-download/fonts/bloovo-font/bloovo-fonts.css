@@ -1,0 +1,432 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon.eot?4zmujv');
+    src:    url('icomoon.eot?4zmujv#iefix') format('embedded-opentype'),
+        url('icomoon.ttf?4zmujv') format('truetype'),
+        url('icomoon.woff?4zmujv') format('woff'),
+        url('icomoon.svg?4zmujv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location:before {
+  content: "\e981";
+}
+.icon-company:before {
+  content: "\e983";
+}
+.icon-account:before {
+  content: "\e984";
+}
+.icon-sector:before {
+  content: "\e985";
+}
+.icon-emptycv:before {
+  content: "\e952";
+}
+.icon-empty-blog:before {
+  content: "\e95e";
+}
+.icon-empty-tag:before {
+  content: "\e95f";
+}
+.icon-empty-saved-serch:before {
+  content: "\e960";
+}
+.icon-empty-nodata:before {
+  content: "\e961";
+}
+.icon-empty-app-sector:before {
+  content: "\e962";
+}
+.icon-empty-nodatasector:before {
+  content: "\e963";
+}
+.icon-empty-team:before {
+  content: "\e964";
+}
+.icon-empty-nojobs:before {
+  content: "\e965";
+}
+.icon-empty-user:before {
+  content: "\e966";
+}
+.icon-empty-companycover:before {
+  content: "\e967";
+}
+.icon-empty-status:before {
+  content: "\e969";
+}
+.icon-empty-brand-follow:before {
+  content: "\e96a";
+}
+.icon-empty-tags:before {
+  content: "\e96c";
+}
+.icon-empty-topview:before {
+  content: "\e96d";
+}
+.icon-empty-culture:before {
+  content: "\e96e";
+}
+.icon-empty-job:before {
+  content: "\e96f";
+}
+.icon-empty-location:before {
+  content: "\e970";
+}
+.icon-empty-company:before {
+  content: "\e971";
+}
+.icon-empty-data:before {
+  content: "\e972";
+}
+.icon-empty-app-group:before {
+  content: "\e973";
+}
+.icon-empty-app-education:before {
+  content: "\e974";
+}
+.icon-empty-app-cntry:before {
+  content: "\e975";
+}
+.icon-empty-myjob:before {
+  content: "\e976";
+}
+.icon-empty-viewprofile:before {
+  content: "\e977";
+}
+.icon-empty-followedcompanies:before {
+  content: "\e978";
+}
+.icon-empty-suggested:before {
+  content: "\e979";
+}
+.icon-empty-saved-jobs:before {
+  content: "\e97a";
+}
+.icon-empty-summery:before {
+  content: "\e97b";
+}
+.icon-empty-experiance:before {
+  content: "\e97c";
+}
+.icon-empty-address:before {
+  content: "\e97d";
+}
+.icon-empty-skill:before {
+  content: "\e97e";
+}
+.icon-empty-education:before {
+  content: "\e97f";
+}
+.icon-empty-cover:before {
+  content: "\e980";
+}
+.icon-Entertainment:before {
+  content: "\e953";
+}
+.icon-financial-services:before {
+  content: "\e954";
+}
+.icon-computer-services:before {
+  content: "\e955";
+}
+.icon-education:before {
+  content: "\e956";
+}
+.icon-OilnGas:before {
+  content: "\e957";
+}
+.icon-Medical:before {
+  content: "\e958";
+}
+.icon-Real-Estate:before {
+  content: "\e959";
+}
+.icon-matching-percentage:before {
+  content: "\e95a";
+}
+.icon-Candidate-video:before {
+  content: "\e95b";
+}
+.icon-Insightful-Jobs:before {
+  content: "\e95c";
+}
+.icon-post-job2:before {
+  content: "\e948";
+}
+.icon-facilities:before {
+  content: "\e949";
+}
+.icon-retirement:before {
+  content: "\e94a";
+}
+.icon-travel:before {
+  content: "\e94b";
+}
+.icon-work-from:before {
+  content: "\e94c";
+}
+.icon-activities:before {
+  content: "\e94d";
+}
+.icon-free-food:before {
+  content: "\e94e";
+}
+.icon-flexi:before {
+  content: "\e94f";
+}
+.icon-share-social:before {
+  content: "\e950";
+}
+.icon-make-featured:before {
+  content: "\e951";
+}
+.icon-job-post:before {
+  content: "\e947";
+}
+.icon-post-job:before {
+  content: "\e945";
+}
+.icon-tick:before {
+  content: "\e944";
+}
+.icon-last-active:before {
+  content: "\e943";
+}
+.icon-hight-width:before {
+  content: "\e941";
+}
+.icon-landscape:before {
+  content: "\e93f";
+}
+.icon-min-width:before {
+  content: "\e940";
+}
+.icon-users:before {
+  content: "\e93e";
+}
+.icon-viwed-jobs:before {
+  content: "\e936";
+}
+.icon-jobs-posted:before {
+  content: "\e93d";
+}
+.icon-top-companies:before {
+  content: "\e92f";
+}
+.icon-hangout:before {
+  content: "\e92e";
+}
+.icon-empty-galery:before {
+  content: "\e982";
+}
+.icon-candidate:before {
+  content: "\e935";
+}
+.icon-reviewed:before {
+  content: "\e92a";
+}
+.icon-applied:before {
+  content: "\e92b";
+}
+.icon-interview:before {
+  content: "\e92c";
+}
+.icon-short:before {
+  content: "\e92d";
+}
+.icon-car:before {
+  content: "\e91d";
+}
+.icon-family-benefits:before {
+  content: "\e924";
+}
+.icon-flight-tickets:before {
+  content: "\e925";
+}
+.icon-graduates-programe:before {
+  content: "\e926";
+}
+.icon-medical-insurance:before {
+  content: "\e927";
+}
+.icon-pet-friendly:before {
+  content: "\e928";
+}
+.icon-stock:before {
+  content: "\e929";
+}
+.icon-applicants:before {
+  content: "\e918";
+}
+.icon-probability-success:before {
+  content: "\e919";
+}
+.icon-rank:before {
+  content: "\e91a";
+}
+.icon-views:before {
+  content: "\e91b";
+}
+.icon-add:before {
+  content: "\e916";
+}
+.icon-minas:before {
+  content: "\e917";
+}
+.icon-branding:before {
+  content: "\e946";
+}
+.icon-resume:before {
+  content: "\e908";
+}
+.icon-admin:before {
+  content: "\e942";
+}
+.icon-manage-post:before {
+  content: "\e931";
+}
+.icon-format-bold:before {
+  content: "\e932";
+}
+.icon-format-italic:before {
+  content: "\e933";
+}
+.icon-format-underlined:before {
+  content: "\e934";
+}
+.icon-align-center:before {
+  content: "\e937";
+}
+.icon-align-justify:before {
+  content: "\e938";
+}
+.icon-align-right:before {
+  content: "\e939";
+}
+.icon-alignleft:before {
+  content: "\e93a";
+}
+.icon-cottation:before {
+  content: "\e93b";
+}
+.icon-view-list:before {
+  content: "\e93c";
+}
+.icon-featured-serch:before {
+  content: "\e91c";
+}
+.icon-my-jobs:before {
+  content: "\e91e";
+}
+.icon-saved-jobs:before {
+  content: "\e91f";
+}
+.icon-saved-searches:before {
+  content: "\e920";
+}
+.icon-suggestedjobs:before {
+  content: "\e921";
+}
+.icon-current-Job:before {
+  content: "\e909";
+}
+.icon-experience:before {
+  content: "\e90a";
+}
+.icon-gender:before {
+  content: "\e90b";
+}
+.icon-hot-mail:before {
+  content: "\e90c";
+}
+.icon-License:before {
+  content: "\e90d";
+}
+.icon-mail-closed:before {
+  content: "\e90e";
+}
+.icon-notice-period:before {
+  content: "\e90f";
+}
+.icon-position:before {
+  content: "\e910";
+}
+.icon-profile-company:before {
+  content: "\e911";
+}
+.icon-profile-location:before {
+  content: "\e912";
+}
+.icon-profile-sector:before {
+  content: "\e913";
+}
+.icon-visa-status:before {
+  content: "\e914";
+}
+.icon-yahoo:before {
+  content: "\e915";
+}
+.icon-round:before {
+  content: "\e907";
+}
+.icon-featured-serch3:before {
+  content: "\e922";
+}
+.icon-my-jobs2:before {
+  content: "\e923";
+}
+.icon-profile-view:before {
+  content: "\e903";
+}
+.icon-dashboard:before {
+  content: "\e900";
+}
+.icon-incandescent:before {
+  content: "\e901";
+}
+.icon-job-application:before {
+  content: "\e902";
+}
+.icon-profile:before {
+  content: "\e904";
+}
+.icon-statistics:before {
+  content: "\e905";
+}
+.icon-thumbs-up:before {
+  content: "\e906";
+}
+.icon-date:before {
+  content: "\e986";
+}
+.icon-empty-candidates:before {
+  content: "\e96b";
+}
+.icon-Advance-tracking:before {
+  content: "\e95d";
+}
+.icon-youtube:before {
+  content: "\e930";
+}
+.icon-empty-follower:before {
+  content: "\e968";
+}
+
